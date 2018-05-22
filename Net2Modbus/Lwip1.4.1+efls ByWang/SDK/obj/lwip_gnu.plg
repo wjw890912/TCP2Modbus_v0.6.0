@@ -1,0 +1,2497 @@
+<html>
+<body>
+<pre>
+<h1>礦ision Build Log</h1>
+<h2>Project:</h2>
+C:\Users\mister-wang\Desktop\TCP2Modbus_v0.5.1\Net2Modbus\Lwip1.4.1+efls ByWang\SDK\lwip_gnu.uvproj
+Project File Date:  05/20/2018
+
+<h2>Output:</h2>
+Build target 'lwip2modbus'
+compiling main.c...
+..\myself\src\main.c(105): warning:  #14-D: extra text after expected end of preprocessing directive
+..\myself\src\main.c:                     #ifdef USED_FILESYSTEM && USED_HTTP
+..\myself\src\main.c:                                            ^
+..\myself\src\main.c(121): warning:  #223-D: function "TcpTestThread" declared implicitly
+..\myself\src\main.c:                             TcpTestThread(LocalTime);
+..\myself\src\main.c:                             ^
+..\myself\src\main.c(129): warning:  #223-D: function "eMBMasterPoll" declared implicitly
+..\myself\src\main.c:                            (void)eMBMasterPoll();//空闲检查 modbus RTU 数据
+..\myself\src\main.c:                                  ^
+..\myself\src\main.c: ..\myself\src\main.c: 3 warnings, 0 errors
+linking...
+Program Size: Code=57120 RO-data=756 RW-data=500 ZI-data=50764  
+FromELF: creating hex file...
+".\obj\lwip_gnu.axf" - 0 Error(s), 3 Warning(s).
+Build target 'lwip2modbus'
+linking...
+Program Size: Code=57120 RO-data=756 RW-data=500 ZI-data=50764  
+FromELF: creating hex file...
+".\obj\lwip_gnu.axf" - 0 Error(s), 0 Warning(s).
+Build target 'lwip2modbus'
+compiling client_tcpudp.c...
+..\myself\src\client_tcpudp.c(253): warning:  #1295-D: Deprecated declaration Getmeminf - give arg types
+..\myself\src\client_tcpudp.c:     extern char* Getmeminf();
+..\myself\src\client_tcpudp.c:                  ^
+..\myself\src\client_tcpudp.c(312): warning:  #177-D: variable "len" was declared but never referenced
+..\myself\src\client_tcpudp.c:                                                             uint16_t len;
+..\myself\src\client_tcpudp.c:                                                                      ^
+..\myself\src\client_tcpudp.c(331): warning:  #177-D: variable "len" was declared but never referenced
+..\myself\src\client_tcpudp.c:                                                             uint16_t len;
+..\myself\src\client_tcpudp.c:                                                                      ^
+..\myself\src\client_tcpudp.c(427): warning:  #175-D: subscript out of range
+..\myself\src\client_tcpudp.c:                                                    UID_STM32[16]=0x24;
+..\myself\src\client_tcpudp.c:                                                    ^
+..\myself\src\client_tcpudp.c(428): warning:  #175-D: subscript out of range
+..\myself\src\client_tcpudp.c:                                                    UID_STM32[17]=0x0d;  //efl
+..\myself\src\client_tcpudp.c:                                                             ^
+..\myself\src\client_tcpudp.c(429): warning:  #175-D: subscript out of range
+..\myself\src\client_tcpudp.c:                                                    UID_STM32[18]=0x0a;
+..\myself\src\client_tcpudp.c:                                                             ^
+..\myself\src\client_tcpudp.c(296): warning:  #177-D: variable "IDon" was declared but never referenced
+..\myself\src\client_tcpudp.c:                                          char IDon[7] ={0x67,0x74,0,0,1,0x0d,0x0a};
+..\myself\src\client_tcpudp.c:                                               ^
+..\myself\src\client_tcpudp.c(297): warning:  #177-D: variable "IDoff" was declared but never referenced
+..\myself\src\client_tcpudp.c:                                          char IDoff[7]={0x67,0x74,0,0,0,0x0d,0x0a};
+..\myself\src\client_tcpudp.c:                                               ^
+..\myself\src\client_tcpudp.c(298): warning:  #177-D: variable "IDs" was declared but never referenced
+..\myself\src\client_tcpudp.c:                                          char IDs[7]  ={0x67,0x74,0,0,2,0x0d,0x0a};
+..\myself\src\client_tcpudp.c:                                               ^
+..\myself\src\client_tcpudp.c(805): warning:  #940-D: missing return statement at end of non-void function "Tcp_recv"
+..\myself\src\client_tcpudp.c:   }
+..\myself\src\client_tcpudp.c:   ^
+..\myself\src\client_tcpudp.c: ..\myself\src\client_tcpudp.c: 10 warnings, 0 errors
+compiling main.c...
+..\myself\src\main.c(105): warning:  #14-D: extra text after expected end of preprocessing directive
+..\myself\src\main.c:                     #ifdef USED_FILESYSTEM && USED_HTTP
+..\myself\src\main.c:                                            ^
+..\myself\src\main.c(121): warning:  #223-D: function "TcpTestThread" declared implicitly
+..\myself\src\main.c:                             TcpTestThread(LocalTime);
+..\myself\src\main.c:                             ^
+..\myself\src\main.c(129): warning:  #223-D: function "eMBMasterPoll" declared implicitly
+..\myself\src\main.c:                            (void)eMBMasterPoll();//空闲检查 modbus RTU 数据
+..\myself\src\main.c:                                  ^
+..\myself\src\main.c: ..\myself\src\main.c: 3 warnings, 0 errors
+linking...
+Program Size: Code=57120 RO-data=756 RW-data=500 ZI-data=50764  
+FromELF: creating hex file...
+".\obj\lwip_gnu.axf" - 0 Error(s), 13 Warning(s).
+Build target 'lwip2modbus'
+compiling client_tcpudp.c...
+..\myself\src\client_tcpudp.c(253): warning:  #1295-D: Deprecated declaration Getmeminf - give arg types
+..\myself\src\client_tcpudp.c:     extern char* Getmeminf();
+..\myself\src\client_tcpudp.c:                  ^
+..\myself\src\client_tcpudp.c(312): warning:  #177-D: variable "len" was declared but never referenced
+..\myself\src\client_tcpudp.c:                                                             uint16_t len;
+..\myself\src\client_tcpudp.c:                                                                      ^
+..\myself\src\client_tcpudp.c(331): warning:  #177-D: variable "len" was declared but never referenced
+..\myself\src\client_tcpudp.c:                                                             uint16_t len;
+..\myself\src\client_tcpudp.c:                                                                      ^
+..\myself\src\client_tcpudp.c(427): warning:  #175-D: subscript out of range
+..\myself\src\client_tcpudp.c:                                                    UID_STM32[16]=0x24;
+..\myself\src\client_tcpudp.c:                                                    ^
+..\myself\src\client_tcpudp.c(428): warning:  #175-D: subscript out of range
+..\myself\src\client_tcpudp.c:                                                    UID_STM32[17]=0x0d;  //efl
+..\myself\src\client_tcpudp.c:                                                             ^
+..\myself\src\client_tcpudp.c(429): warning:  #175-D: subscript out of range
+..\myself\src\client_tcpudp.c:                                                    UID_STM32[18]=0x0a;
+..\myself\src\client_tcpudp.c:                                                             ^
+..\myself\src\client_tcpudp.c(296): warning:  #177-D: variable "IDon" was declared but never referenced
+..\myself\src\client_tcpudp.c:                                          char IDon[7] ={0x67,0x74,0,0,1,0x0d,0x0a};
+..\myself\src\client_tcpudp.c:                                               ^
+..\myself\src\client_tcpudp.c(297): warning:  #177-D: variable "IDoff" was declared but never referenced
+..\myself\src\client_tcpudp.c:                                          char IDoff[7]={0x67,0x74,0,0,0,0x0d,0x0a};
+..\myself\src\client_tcpudp.c:                                               ^
+..\myself\src\client_tcpudp.c(298): warning:  #177-D: variable "IDs" was declared but never referenced
+..\myself\src\client_tcpudp.c:                                          char IDs[7]  ={0x67,0x74,0,0,2,0x0d,0x0a};
+..\myself\src\client_tcpudp.c:                                               ^
+..\myself\src\client_tcpudp.c(805): warning:  #940-D: missing return statement at end of non-void function "Tcp_recv"
+..\myself\src\client_tcpudp.c:   }
+..\myself\src\client_tcpudp.c:   ^
+..\myself\src\client_tcpudp.c: ..\myself\src\client_tcpudp.c: 10 warnings, 0 errors
+linking...
+Program Size: Code=57120 RO-data=756 RW-data=500 ZI-data=50764  
+FromELF: creating hex file...
+".\obj\lwip_gnu.axf" - 0 Error(s), 10 Warning(s).
+Build target 'lwip2modbus'
+compiling main.c...
+..\myself\src\main.c(105): warning:  #14-D: extra text after expected end of preprocessing directive
+..\myself\src\main.c:                     #ifdef USED_FILESYSTEM && USED_HTTP
+..\myself\src\main.c:                                            ^
+..\myself\src\main.c(121): warning:  #223-D: function "TcpTestThread" declared implicitly
+..\myself\src\main.c:                             TcpTestThread(LocalTime);
+..\myself\src\main.c:                             ^
+..\myself\src\main.c(129): warning:  #223-D: function "eMBMasterPoll" declared implicitly
+..\myself\src\main.c:                            (void)eMBMasterPoll();//空闲检查 modbus RTU 数据
+..\myself\src\main.c:                                  ^
+..\myself\src\main.c: ..\myself\src\main.c: 3 warnings, 0 errors
+linking...
+Program Size: Code=57120 RO-data=756 RW-data=500 ZI-data=50764  
+FromELF: creating hex file...
+".\obj\lwip_gnu.axf" - 0 Error(s), 3 Warning(s).
+Build target 'lwip2modbus'
+linking...
+Program Size: Code=57120 RO-data=756 RW-data=500 ZI-data=50764  
+FromELF: creating hex file...
+".\obj\lwip_gnu.axf" - 0 Error(s), 0 Warning(s).
+Load "C:\\Users\\mister-wang\\Desktop\\TCP2Modbus_v0.5.1\\Net2Modbus\\Lwip1.4.1+efls ByWang\\SDK\\obj\\lwip_gnu.AXF" 
+
+JLink info:
+-----------
+DLL: V4.86b, compiled Jun 27 2014 20:11:00
+Firmware: J-Link ARM V8 compiled Nov 25 2013 19:20:08
+Hardware: V8.00
+Feature(s) : RDI,FlashDL,FlashBP,JFlash,GDBFull 
+---
+* JLink Info: TotalIRLen = 9, IRPrint = 0x0011
+* JLink Info: Found Cortex-M3 r1p1, Little endian.
+* JLink Info: FPUnit: 6 code (BP) slots and 2 literal slots
+* JLink Info: TPIU fitted.
+* JLink Info: ETM fitted.
+
+Target info:
+------------
+Device: STM32F107VC
+* JLink Info: Device "STM32F107VC" selected (256 KB flash, 64 KB RAM).
+VTarget = 3.293V
+State of Pins: 
+TCK: 1, TDI: 0, TDO: 1, TMS: 0, TRES: 1, TRST: 1
+Hardware-Breakpoints: 6
+Software-Breakpoints: 8192
+Watchpoints:          4
+JTAG speed: 2000 kHz
+---
+Full Chip Erase Done.
+Programming Done.
+Verify OK.
+Application running ...
+Build target 'lwip2modbus'
+compiling client_tcpudp.c...
+..\myself\src\client_tcpudp.c(253): warning:  #1295-D: Deprecated declaration Getmeminf - give arg types
+..\myself\src\client_tcpudp.c:     extern char* Getmeminf();
+..\myself\src\client_tcpudp.c:                  ^
+..\myself\src\client_tcpudp.c(312): warning:  #177-D: variable "len" was declared but never referenced
+..\myself\src\client_tcpudp.c:                                                             uint16_t len;
+..\myself\src\client_tcpudp.c:                                                                      ^
+..\myself\src\client_tcpudp.c(331): warning:  #177-D: variable "len" was declared but never referenced
+..\myself\src\client_tcpudp.c:                                                             uint16_t len;
+..\myself\src\client_tcpudp.c:                                                                      ^
+..\myself\src\client_tcpudp.c(427): warning:  #175-D: subscript out of range
+..\myself\src\client_tcpudp.c:                                                    UID_STM32[16]=0x24;
+..\myself\src\client_tcpudp.c:                                                    ^
+..\myself\src\client_tcpudp.c(428): warning:  #175-D: subscript out of range
+..\myself\src\client_tcpudp.c:                                                    UID_STM32[17]=0x0d;  //efl
+..\myself\src\client_tcpudp.c:                                                             ^
+..\myself\src\client_tcpudp.c(429): warning:  #175-D: subscript out of range
+..\myself\src\client_tcpudp.c:                                                    UID_STM32[18]=0x0a;
+..\myself\src\client_tcpudp.c:                                                             ^
+..\myself\src\client_tcpudp.c(296): warning:  #177-D: variable "IDon" was declared but never referenced
+..\myself\src\client_tcpudp.c:                                          char IDon[7] ={0x67,0x74,0,0,1,0x0d,0x0a};
+..\myself\src\client_tcpudp.c:                                               ^
+..\myself\src\client_tcpudp.c(297): warning:  #177-D: variable "IDoff" was declared but never referenced
+..\myself\src\client_tcpudp.c:                                          char IDoff[7]={0x67,0x74,0,0,0,0x0d,0x0a};
+..\myself\src\client_tcpudp.c:                                               ^
+..\myself\src\client_tcpudp.c(298): warning:  #177-D: variable "IDs" was declared but never referenced
+..\myself\src\client_tcpudp.c:                                          char IDs[7]  ={0x67,0x74,0,0,2,0x0d,0x0a};
+..\myself\src\client_tcpudp.c:                                               ^
+..\myself\src\client_tcpudp.c(805): warning:  #940-D: missing return statement at end of non-void function "Tcp_recv"
+..\myself\src\client_tcpudp.c:   }
+..\myself\src\client_tcpudp.c:   ^
+..\myself\src\client_tcpudp.c: ..\myself\src\client_tcpudp.c: 10 warnings, 0 errors
+linking...
+Program Size: Code=57120 RO-data=756 RW-data=500 ZI-data=50764  
+FromELF: creating hex file...
+".\obj\lwip_gnu.axf" - 0 Error(s), 10 Warning(s).
+Build target 'lwip2modbus'
+compiling client_tcpudp.c...
+..\myself\src\client_tcpudp.c(253): warning:  #1295-D: Deprecated declaration Getmeminf - give arg types
+..\myself\src\client_tcpudp.c:     extern char* Getmeminf();
+..\myself\src\client_tcpudp.c:                  ^
+..\myself\src\client_tcpudp.c(312): warning:  #177-D: variable "len" was declared but never referenced
+..\myself\src\client_tcpudp.c:                                                             uint16_t len;
+..\myself\src\client_tcpudp.c:                                                                      ^
+..\myself\src\client_tcpudp.c(331): warning:  #177-D: variable "len" was declared but never referenced
+..\myself\src\client_tcpudp.c:                                                             uint16_t len;
+..\myself\src\client_tcpudp.c:                                                                      ^
+..\myself\src\client_tcpudp.c(427): warning:  #175-D: subscript out of range
+..\myself\src\client_tcpudp.c:                                                    UID_STM32[16]=0x24;
+..\myself\src\client_tcpudp.c:                                                    ^
+..\myself\src\client_tcpudp.c(428): warning:  #175-D: subscript out of range
+..\myself\src\client_tcpudp.c:                                                    UID_STM32[17]=0x0d;  //efl
+..\myself\src\client_tcpudp.c:                                                             ^
+..\myself\src\client_tcpudp.c(429): warning:  #175-D: subscript out of range
+..\myself\src\client_tcpudp.c:                                                    UID_STM32[18]=0x0a;
+..\myself\src\client_tcpudp.c:                                                             ^
+..\myself\src\client_tcpudp.c(296): warning:  #177-D: variable "IDon" was declared but never referenced
+..\myself\src\client_tcpudp.c:                                          char IDon[7] ={0x67,0x74,0,0,1,0x0d,0x0a};
+..\myself\src\client_tcpudp.c:                                               ^
+..\myself\src\client_tcpudp.c(297): warning:  #177-D: variable "IDoff" was declared but never referenced
+..\myself\src\client_tcpudp.c:                                          char IDoff[7]={0x67,0x74,0,0,0,0x0d,0x0a};
+..\myself\src\client_tcpudp.c:                                               ^
+..\myself\src\client_tcpudp.c(298): warning:  #177-D: variable "IDs" was declared but never referenced
+..\myself\src\client_tcpudp.c:                                          char IDs[7]  ={0x67,0x74,0,0,2,0x0d,0x0a};
+..\myself\src\client_tcpudp.c:                                               ^
+..\myself\src\client_tcpudp.c(805): warning:  #940-D: missing return statement at end of non-void function "Tcp_recv"
+..\myself\src\client_tcpudp.c:   }
+..\myself\src\client_tcpudp.c:   ^
+..\myself\src\client_tcpudp.c: ..\myself\src\client_tcpudp.c: 10 warnings, 0 errors
+linking...
+Program Size: Code=57124 RO-data=756 RW-data=500 ZI-data=50764  
+FromELF: creating hex file...
+".\obj\lwip_gnu.axf" - 0 Error(s), 10 Warning(s).
+Build target 'lwip2modbus'
+compiling client_tcpudp.c...
+..\myself\src\client_tcpudp.c(253): warning:  #1295-D: Deprecated declaration Getmeminf - give arg types
+..\myself\src\client_tcpudp.c:     extern char* Getmeminf();
+..\myself\src\client_tcpudp.c:                  ^
+..\myself\src\client_tcpudp.c(312): warning:  #177-D: variable "len" was declared but never referenced
+..\myself\src\client_tcpudp.c:                                                             uint16_t len;
+..\myself\src\client_tcpudp.c:                                                                      ^
+..\myself\src\client_tcpudp.c(331): warning:  #177-D: variable "len" was declared but never referenced
+..\myself\src\client_tcpudp.c:                                                             uint16_t len;
+..\myself\src\client_tcpudp.c:                                                                      ^
+..\myself\src\client_tcpudp.c(427): warning:  #175-D: subscript out of range
+..\myself\src\client_tcpudp.c:                                                    UID_STM32[16]=0x24;
+..\myself\src\client_tcpudp.c:                                                    ^
+..\myself\src\client_tcpudp.c(428): warning:  #175-D: subscript out of range
+..\myself\src\client_tcpudp.c:                                                    UID_STM32[17]=0x0d;  //efl
+..\myself\src\client_tcpudp.c:                                                             ^
+..\myself\src\client_tcpudp.c(429): warning:  #175-D: subscript out of range
+..\myself\src\client_tcpudp.c:                                                    UID_STM32[18]=0x0a;
+..\myself\src\client_tcpudp.c:                                                             ^
+..\myself\src\client_tcpudp.c(296): warning:  #177-D: variable "IDon" was declared but never referenced
+..\myself\src\client_tcpudp.c:                                          char IDon[7] ={0x67,0x74,0,0,1,0x0d,0x0a};
+..\myself\src\client_tcpudp.c:                                               ^
+..\myself\src\client_tcpudp.c(297): warning:  #177-D: variable "IDoff" was declared but never referenced
+..\myself\src\client_tcpudp.c:                                          char IDoff[7]={0x67,0x74,0,0,0,0x0d,0x0a};
+..\myself\src\client_tcpudp.c:                                               ^
+..\myself\src\client_tcpudp.c(298): warning:  #177-D: variable "IDs" was declared but never referenced
+..\myself\src\client_tcpudp.c:                                          char IDs[7]  ={0x67,0x74,0,0,2,0x0d,0x0a};
+..\myself\src\client_tcpudp.c:                                               ^
+..\myself\src\client_tcpudp.c(805): warning:  #940-D: missing return statement at end of non-void function "Tcp_recv"
+..\myself\src\client_tcpudp.c:   }
+..\myself\src\client_tcpudp.c:   ^
+..\myself\src\client_tcpudp.c: ..\myself\src\client_tcpudp.c: 10 warnings, 0 errors
+linking...
+Program Size: Code=57120 RO-data=756 RW-data=500 ZI-data=50764  
+FromELF: creating hex file...
+".\obj\lwip_gnu.axf" - 0 Error(s), 10 Warning(s).
+Load "C:\\Users\\mister-wang\\Desktop\\TCP2Modbus_v0.5.1\\Net2Modbus\\Lwip1.4.1+efls ByWang\\SDK\\obj\\lwip_gnu.AXF" 
+
+JLink info:
+-----------
+DLL: V4.86b, compiled Jun 27 2014 20:11:00
+Firmware: J-Link ARM V8 compiled Nov 25 2013 19:20:08
+Hardware: V8.00
+Feature(s) : RDI,FlashDL,FlashBP,JFlash,GDBFull 
+---
+* JLink Info: TotalIRLen = 9, IRPrint = 0x0011
+* JLink Info: Found Cortex-M3 r1p1, Little endian.
+* JLink Info: FPUnit: 6 code (BP) slots and 2 literal slots
+* JLink Info: TPIU fitted.
+* JLink Info: ETM fitted.
+
+Target info:
+------------
+Device: STM32F107VC
+* JLink Info: Device "STM32F107VC" selected (256 KB flash, 64 KB RAM).
+VTarget = 3.293V
+State of Pins: 
+TCK: 1, TDI: 0, TDO: 1, TMS: 0, TRES: 1, TRST: 1
+Hardware-Breakpoints: 6
+Software-Breakpoints: 8192
+Watchpoints:          4
+JTAG speed: 2000 kHz
+---
+Full Chip Erase Done.
+Programming Done.
+Verify OK.
+Application running ...
+Build target 'lwip2modbus'
+compiling client_tcpudp.c...
+..\myself\src\client_tcpudp.c(253): warning:  #1295-D: Deprecated declaration Getmeminf - give arg types
+..\myself\src\client_tcpudp.c:     extern char* Getmeminf();
+..\myself\src\client_tcpudp.c:                  ^
+..\myself\src\client_tcpudp.c(312): warning:  #177-D: variable "len" was declared but never referenced
+..\myself\src\client_tcpudp.c:                                                             uint16_t len;
+..\myself\src\client_tcpudp.c:                                                                      ^
+..\myself\src\client_tcpudp.c(331): warning:  #177-D: variable "len" was declared but never referenced
+..\myself\src\client_tcpudp.c:                                                             uint16_t len;
+..\myself\src\client_tcpudp.c:                                                                      ^
+..\myself\src\client_tcpudp.c(427): warning:  #175-D: subscript out of range
+..\myself\src\client_tcpudp.c:                                                    UID_STM32[16]=0x24;
+..\myself\src\client_tcpudp.c:                                                    ^
+..\myself\src\client_tcpudp.c(428): warning:  #175-D: subscript out of range
+..\myself\src\client_tcpudp.c:                                                    UID_STM32[17]=0x0d;  //efl
+..\myself\src\client_tcpudp.c:                                                             ^
+..\myself\src\client_tcpudp.c(429): warning:  #175-D: subscript out of range
+..\myself\src\client_tcpudp.c:                                                    UID_STM32[18]=0x0a;
+..\myself\src\client_tcpudp.c:                                                             ^
+..\myself\src\client_tcpudp.c(296): warning:  #177-D: variable "IDon" was declared but never referenced
+..\myself\src\client_tcpudp.c:                                          char IDon[7] ={0x67,0x74,0,0,1,0x0d,0x0a};
+..\myself\src\client_tcpudp.c:                                               ^
+..\myself\src\client_tcpudp.c(297): warning:  #177-D: variable "IDoff" was declared but never referenced
+..\myself\src\client_tcpudp.c:                                          char IDoff[7]={0x67,0x74,0,0,0,0x0d,0x0a};
+..\myself\src\client_tcpudp.c:                                               ^
+..\myself\src\client_tcpudp.c(298): warning:  #177-D: variable "IDs" was declared but never referenced
+..\myself\src\client_tcpudp.c:                                          char IDs[7]  ={0x67,0x74,0,0,2,0x0d,0x0a};
+..\myself\src\client_tcpudp.c:                                               ^
+..\myself\src\client_tcpudp.c(805): warning:  #940-D: missing return statement at end of non-void function "Tcp_recv"
+..\myself\src\client_tcpudp.c:   }
+..\myself\src\client_tcpudp.c:   ^
+..\myself\src\client_tcpudp.c: ..\myself\src\client_tcpudp.c: 10 warnings, 0 errors
+linking...
+Program Size: Code=57120 RO-data=756 RW-data=500 ZI-data=50764  
+FromELF: creating hex file...
+".\obj\lwip_gnu.axf" - 0 Error(s), 10 Warning(s).
+Load "C:\\Users\\mister-wang\\Desktop\\TCP2Modbus_v0.5.1\\Net2Modbus\\Lwip1.4.1+efls ByWang\\SDK\\obj\\lwip_gnu.AXF" 
+
+JLink info:
+-----------
+DLL: V4.86b, compiled Jun 27 2014 20:11:00
+Firmware: J-Link ARM V8 compiled Nov 25 2013 19:20:08
+Hardware: V8.00
+Feature(s) : RDI,FlashDL,FlashBP,JFlash,GDBFull 
+---
+* JLink Info: TotalIRLen = 9, IRPrint = 0x0011
+* JLink Info: Found Cortex-M3 r1p1, Little endian.
+* JLink Info: FPUnit: 6 code (BP) slots and 2 literal slots
+* JLink Info: TPIU fitted.
+* JLink Info: ETM fitted.
+
+Target info:
+------------
+Device: STM32F107VC
+* JLink Info: Device "STM32F107VC" selected (256 KB flash, 64 KB RAM).
+VTarget = 3.293V
+State of Pins: 
+TCK: 1, TDI: 0, TDO: 1, TMS: 0, TRES: 1, TRST: 1
+Hardware-Breakpoints: 6
+Software-Breakpoints: 8192
+Watchpoints:          4
+JTAG speed: 2000 kHz
+---
+Full Chip Erase Done.
+Programming Done.
+Verify OK.
+Application running ...
+Build target 'lwip2modbus'
+compiling client_tcpudp.c...
+..\myself\src\client_tcpudp.c(253): warning:  #1295-D: Deprecated declaration Getmeminf - give arg types
+..\myself\src\client_tcpudp.c:     extern char* Getmeminf();
+..\myself\src\client_tcpudp.c:                  ^
+..\myself\src\client_tcpudp.c(312): warning:  #177-D: variable "len" was declared but never referenced
+..\myself\src\client_tcpudp.c:                                                             uint16_t len;
+..\myself\src\client_tcpudp.c:                                                                      ^
+..\myself\src\client_tcpudp.c(331): warning:  #177-D: variable "len" was declared but never referenced
+..\myself\src\client_tcpudp.c:                                                             uint16_t len;
+..\myself\src\client_tcpudp.c:                                                                      ^
+..\myself\src\client_tcpudp.c(427): warning:  #175-D: subscript out of range
+..\myself\src\client_tcpudp.c:                                                    UID_STM32[16]=0x24;
+..\myself\src\client_tcpudp.c:                                                    ^
+..\myself\src\client_tcpudp.c(428): warning:  #175-D: subscript out of range
+..\myself\src\client_tcpudp.c:                                                    UID_STM32[17]=0x0d;  //efl
+..\myself\src\client_tcpudp.c:                                                             ^
+..\myself\src\client_tcpudp.c(429): warning:  #175-D: subscript out of range
+..\myself\src\client_tcpudp.c:                                                    UID_STM32[18]=0x0a;
+..\myself\src\client_tcpudp.c:                                                             ^
+..\myself\src\client_tcpudp.c(296): warning:  #177-D: variable "IDon" was declared but never referenced
+..\myself\src\client_tcpudp.c:                                          char IDon[7] ={0x67,0x74,0,0,1,0x0d,0x0a};
+..\myself\src\client_tcpudp.c:                                               ^
+..\myself\src\client_tcpudp.c(297): warning:  #177-D: variable "IDoff" was declared but never referenced
+..\myself\src\client_tcpudp.c:                                          char IDoff[7]={0x67,0x74,0,0,0,0x0d,0x0a};
+..\myself\src\client_tcpudp.c:                                               ^
+..\myself\src\client_tcpudp.c(298): warning:  #177-D: variable "IDs" was declared but never referenced
+..\myself\src\client_tcpudp.c:                                          char IDs[7]  ={0x67,0x74,0,0,2,0x0d,0x0a};
+..\myself\src\client_tcpudp.c:                                               ^
+..\myself\src\client_tcpudp.c(805): warning:  #940-D: missing return statement at end of non-void function "Tcp_recv"
+..\myself\src\client_tcpudp.c:   }
+..\myself\src\client_tcpudp.c:   ^
+..\myself\src\client_tcpudp.c: ..\myself\src\client_tcpudp.c: 10 warnings, 0 errors
+linking...
+Program Size: Code=57120 RO-data=756 RW-data=500 ZI-data=50764  
+FromELF: creating hex file...
+".\obj\lwip_gnu.axf" - 0 Error(s), 10 Warning(s).
+Load "C:\\Users\\mister-wang\\Desktop\\TCP2Modbus_v0.5.1\\Net2Modbus\\Lwip1.4.1+efls ByWang\\SDK\\obj\\lwip_gnu.AXF" 
+
+JLink info:
+-----------
+DLL: V4.86b, compiled Jun 27 2014 20:11:00
+Firmware: J-Link ARM V8 compiled Nov 25 2013 19:20:08
+Hardware: V8.00
+Feature(s) : RDI,FlashDL,FlashBP,JFlash,GDBFull 
+---
+* JLink Info: TotalIRLen = 9, IRPrint = 0x0011
+* JLink Info: Found Cortex-M3 r1p1, Little endian.
+* JLink Info: FPUnit: 6 code (BP) slots and 2 literal slots
+* JLink Info: TPIU fitted.
+* JLink Info: ETM fitted.
+
+Target info:
+------------
+Device: STM32F107VC
+* JLink Info: Device "STM32F107VC" selected (256 KB flash, 64 KB RAM).
+VTarget = 3.293V
+State of Pins: 
+TCK: 1, TDI: 0, TDO: 1, TMS: 0, TRES: 1, TRST: 1
+Hardware-Breakpoints: 6
+Software-Breakpoints: 8192
+Watchpoints:          4
+JTAG speed: 2000 kHz
+---
+Full Chip Erase Done.
+Programming Done.
+Verify OK.
+Application running ...
+Load "C:\\Users\\mister-wang\\Desktop\\TCP2Modbus_v0.5.1\\Net2Modbus\\Lwip1.4.1+efls ByWang\\SDK\\obj\\lwip_gnu.AXF" 
+
+JLink info:
+-----------
+DLL: V4.86b, compiled Jun 27 2014 20:11:00
+Firmware: J-Link ARM V8 compiled Nov 25 2013 19:20:08
+Hardware: V8.00
+Feature(s) : RDI,FlashDL,FlashBP,JFlash,GDBFull 
+---
+* JLink Info: TotalIRLen = 9, IRPrint = 0x0011
+* JLink Info: Found Cortex-M3 r1p1, Little endian.
+* JLink Info: FPUnit: 6 code (BP) slots and 2 literal slots
+* JLink Info: TPIU fitted.
+* JLink Info: ETM fitted.
+
+Target info:
+------------
+Device: STM32F107VC
+* JLink Info: Device "STM32F107VC" selected (256 KB flash, 64 KB RAM).
+VTarget = 3.293V
+State of Pins: 
+TCK: 1, TDI: 0, TDO: 1, TMS: 0, TRES: 1, TRST: 1
+Hardware-Breakpoints: 6
+Software-Breakpoints: 8192
+Watchpoints:          4
+JTAG speed: 2000 kHz
+---
+Full Chip Erase Done.
+Programming Done.
+Verify OK.
+Application running ...
+Build target 'lwip2modbus'
+compiling client_tcpudp.c...
+..\myself\src\client_tcpudp.c(253): warning:  #1295-D: Deprecated declaration Getmeminf - give arg types
+..\myself\src\client_tcpudp.c:     extern char* Getmeminf();
+..\myself\src\client_tcpudp.c:                  ^
+..\myself\src\client_tcpudp.c(312): warning:  #177-D: variable "len" was declared but never referenced
+..\myself\src\client_tcpudp.c:                                                             uint16_t len;
+..\myself\src\client_tcpudp.c:                                                                      ^
+..\myself\src\client_tcpudp.c(331): warning:  #177-D: variable "len" was declared but never referenced
+..\myself\src\client_tcpudp.c:                                                             uint16_t len;
+..\myself\src\client_tcpudp.c:                                                                      ^
+..\myself\src\client_tcpudp.c(427): warning:  #175-D: subscript out of range
+..\myself\src\client_tcpudp.c:                                                    UID_STM32[16]=0x24;
+..\myself\src\client_tcpudp.c:                                                    ^
+..\myself\src\client_tcpudp.c(428): warning:  #175-D: subscript out of range
+..\myself\src\client_tcpudp.c:                                                    UID_STM32[17]=0x0d;  //efl
+..\myself\src\client_tcpudp.c:                                                             ^
+..\myself\src\client_tcpudp.c(429): warning:  #175-D: subscript out of range
+..\myself\src\client_tcpudp.c:                                                    UID_STM32[18]=0x0a;
+..\myself\src\client_tcpudp.c:                                                             ^
+..\myself\src\client_tcpudp.c(296): warning:  #177-D: variable "IDon" was declared but never referenced
+..\myself\src\client_tcpudp.c:                                          char IDon[7] ={0x67,0x74,0,0,1,0x0d,0x0a};
+..\myself\src\client_tcpudp.c:                                               ^
+..\myself\src\client_tcpudp.c(297): warning:  #177-D: variable "IDoff" was declared but never referenced
+..\myself\src\client_tcpudp.c:                                          char IDoff[7]={0x67,0x74,0,0,0,0x0d,0x0a};
+..\myself\src\client_tcpudp.c:                                               ^
+..\myself\src\client_tcpudp.c(298): warning:  #177-D: variable "IDs" was declared but never referenced
+..\myself\src\client_tcpudp.c:                                          char IDs[7]  ={0x67,0x74,0,0,2,0x0d,0x0a};
+..\myself\src\client_tcpudp.c:                                               ^
+..\myself\src\client_tcpudp.c(805): warning:  #940-D: missing return statement at end of non-void function "Tcp_recv"
+..\myself\src\client_tcpudp.c:   }
+..\myself\src\client_tcpudp.c:   ^
+..\myself\src\client_tcpudp.c: ..\myself\src\client_tcpudp.c: 10 warnings, 0 errors
+linking...
+Program Size: Code=57120 RO-data=756 RW-data=500 ZI-data=50764  
+FromELF: creating hex file...
+".\obj\lwip_gnu.axf" - 0 Error(s), 10 Warning(s).
+Load "C:\\Users\\mister-wang\\Desktop\\TCP2Modbus_v0.5.1\\Net2Modbus\\Lwip1.4.1+efls ByWang\\SDK\\obj\\lwip_gnu.AXF" 
+
+JLink info:
+-----------
+DLL: V4.86b, compiled Jun 27 2014 20:11:00
+Firmware: J-Link ARM V8 compiled Nov 25 2013 19:20:08
+Hardware: V8.00
+Feature(s) : RDI,FlashDL,FlashBP,JFlash,GDBFull 
+---
+* JLink Info: TotalIRLen = 9, IRPrint = 0x0011
+* JLink Info: Found Cortex-M3 r1p1, Little endian.
+* JLink Info: FPUnit: 6 code (BP) slots and 2 literal slots
+* JLink Info: TPIU fitted.
+* JLink Info: ETM fitted.
+
+Target info:
+------------
+Device: STM32F107VC
+* JLink Info: Device "STM32F107VC" selected (256 KB flash, 64 KB RAM).
+VTarget = 3.293V
+State of Pins: 
+TCK: 1, TDI: 0, TDO: 1, TMS: 0, TRES: 1, TRST: 1
+Hardware-Breakpoints: 6
+Software-Breakpoints: 8192
+Watchpoints:          4
+JTAG speed: 2000 kHz
+---
+Full Chip Erase Done.
+Programming Done.
+Verify OK.
+Application running ...
+Build target 'lwip2modbus'
+compiling client_tcpudp.c...
+..\myself\src\client_tcpudp.c(253): warning:  #1295-D: Deprecated declaration Getmeminf - give arg types
+..\myself\src\client_tcpudp.c:     extern char* Getmeminf();
+..\myself\src\client_tcpudp.c:                  ^
+..\myself\src\client_tcpudp.c(312): warning:  #177-D: variable "len" was declared but never referenced
+..\myself\src\client_tcpudp.c:                                                             uint16_t len;
+..\myself\src\client_tcpudp.c:                                                                      ^
+..\myself\src\client_tcpudp.c(331): warning:  #177-D: variable "len" was declared but never referenced
+..\myself\src\client_tcpudp.c:                                                             uint16_t len;
+..\myself\src\client_tcpudp.c:                                                                      ^
+..\myself\src\client_tcpudp.c(427): warning:  #175-D: subscript out of range
+..\myself\src\client_tcpudp.c:                                                    UID_STM32[16]=0x24;
+..\myself\src\client_tcpudp.c:                                                    ^
+..\myself\src\client_tcpudp.c(428): warning:  #175-D: subscript out of range
+..\myself\src\client_tcpudp.c:                                                    UID_STM32[17]=0x0d;  //efl
+..\myself\src\client_tcpudp.c:                                                             ^
+..\myself\src\client_tcpudp.c(429): warning:  #175-D: subscript out of range
+..\myself\src\client_tcpudp.c:                                                    UID_STM32[18]=0x0a;
+..\myself\src\client_tcpudp.c:                                                             ^
+..\myself\src\client_tcpudp.c(296): warning:  #177-D: variable "IDon" was declared but never referenced
+..\myself\src\client_tcpudp.c:                                          char IDon[7] ={0x67,0x74,0,0,1,0x0d,0x0a};
+..\myself\src\client_tcpudp.c:                                               ^
+..\myself\src\client_tcpudp.c(297): warning:  #177-D: variable "IDoff" was declared but never referenced
+..\myself\src\client_tcpudp.c:                                          char IDoff[7]={0x67,0x74,0,0,0,0x0d,0x0a};
+..\myself\src\client_tcpudp.c:                                               ^
+..\myself\src\client_tcpudp.c(298): warning:  #177-D: variable "IDs" was declared but never referenced
+..\myself\src\client_tcpudp.c:                                          char IDs[7]  ={0x67,0x74,0,0,2,0x0d,0x0a};
+..\myself\src\client_tcpudp.c:                                               ^
+..\myself\src\client_tcpudp.c(805): warning:  #940-D: missing return statement at end of non-void function "Tcp_recv"
+..\myself\src\client_tcpudp.c:   }
+..\myself\src\client_tcpudp.c:   ^
+..\myself\src\client_tcpudp.c: ..\myself\src\client_tcpudp.c: 10 warnings, 0 errors
+linking...
+Program Size: Code=57120 RO-data=756 RW-data=500 ZI-data=50764  
+FromELF: creating hex file...
+".\obj\lwip_gnu.axf" - 0 Error(s), 10 Warning(s).
+Build target 'lwip2modbus'
+compiling client_tcpudp.c...
+..\myself\src\client_tcpudp.c(253): warning:  #1295-D: Deprecated declaration Getmeminf - give arg types
+..\myself\src\client_tcpudp.c:     extern char* Getmeminf();
+..\myself\src\client_tcpudp.c:                  ^
+..\myself\src\client_tcpudp.c(312): warning:  #177-D: variable "len" was declared but never referenced
+..\myself\src\client_tcpudp.c:                                                             uint16_t len;
+..\myself\src\client_tcpudp.c:                                                                      ^
+..\myself\src\client_tcpudp.c(331): warning:  #177-D: variable "len" was declared but never referenced
+..\myself\src\client_tcpudp.c:                                                             uint16_t len;
+..\myself\src\client_tcpudp.c:                                                                      ^
+..\myself\src\client_tcpudp.c(427): warning:  #175-D: subscript out of range
+..\myself\src\client_tcpudp.c:                                                    UID_STM32[16]=0x24;
+..\myself\src\client_tcpudp.c:                                                    ^
+..\myself\src\client_tcpudp.c(428): warning:  #175-D: subscript out of range
+..\myself\src\client_tcpudp.c:                                                    UID_STM32[17]=0x0d;  //efl
+..\myself\src\client_tcpudp.c:                                                             ^
+..\myself\src\client_tcpudp.c(429): warning:  #175-D: subscript out of range
+..\myself\src\client_tcpudp.c:                                                    UID_STM32[18]=0x0a;
+..\myself\src\client_tcpudp.c:                                                             ^
+..\myself\src\client_tcpudp.c(296): warning:  #177-D: variable "IDon" was declared but never referenced
+..\myself\src\client_tcpudp.c:                                          char IDon[7] ={0x67,0x74,0,0,1,0x0d,0x0a};
+..\myself\src\client_tcpudp.c:                                               ^
+..\myself\src\client_tcpudp.c(297): warning:  #177-D: variable "IDoff" was declared but never referenced
+..\myself\src\client_tcpudp.c:                                          char IDoff[7]={0x67,0x74,0,0,0,0x0d,0x0a};
+..\myself\src\client_tcpudp.c:                                               ^
+..\myself\src\client_tcpudp.c(298): warning:  #177-D: variable "IDs" was declared but never referenced
+..\myself\src\client_tcpudp.c:                                          char IDs[7]  ={0x67,0x74,0,0,2,0x0d,0x0a};
+..\myself\src\client_tcpudp.c:                                               ^
+..\myself\src\client_tcpudp.c(805): warning:  #940-D: missing return statement at end of non-void function "Tcp_recv"
+..\myself\src\client_tcpudp.c:   }
+..\myself\src\client_tcpudp.c:   ^
+..\myself\src\client_tcpudp.c: ..\myself\src\client_tcpudp.c: 10 warnings, 0 errors
+linking...
+Program Size: Code=57120 RO-data=756 RW-data=500 ZI-data=50764  
+FromELF: creating hex file...
+".\obj\lwip_gnu.axf" - 0 Error(s), 10 Warning(s).
+Load "C:\\Users\\mister-wang\\Desktop\\TCP2Modbus_v0.5.1\\Net2Modbus\\Lwip1.4.1+efls ByWang\\SDK\\obj\\lwip_gnu.AXF" 
+
+JLink info:
+-----------
+DLL: V4.86b, compiled Jun 27 2014 20:11:00
+Firmware: J-Link ARM V8 compiled Nov 25 2013 19:20:08
+Hardware: V8.00
+Feature(s) : RDI,FlashDL,FlashBP,JFlash,GDBFull 
+---
+* JLink Info: TotalIRLen = 9, IRPrint = 0x0011
+* JLink Info: Found Cortex-M3 r1p1, Little endian.
+* JLink Info: FPUnit: 6 code (BP) slots and 2 literal slots
+* JLink Info: TPIU fitted.
+* JLink Info: ETM fitted.
+
+Target info:
+------------
+Device: STM32F107VC
+* JLink Info: Device "STM32F107VC" selected (256 KB flash, 64 KB RAM).
+VTarget = 3.293V
+State of Pins: 
+TCK: 1, TDI: 0, TDO: 1, TMS: 0, TRES: 1, TRST: 1
+Hardware-Breakpoints: 6
+Software-Breakpoints: 8192
+Watchpoints:          4
+JTAG speed: 2000 kHz
+---
+Full Chip Erase Done.
+Programming Done.
+Verify OK.
+Application running ...
+Build target 'lwip2modbus'
+compiling client_tcpudp.c...
+..\myself\src\client_tcpudp.c(253): warning:  #1295-D: Deprecated declaration Getmeminf - give arg types
+..\myself\src\client_tcpudp.c:     extern char* Getmeminf();
+..\myself\src\client_tcpudp.c:                  ^
+..\myself\src\client_tcpudp.c(312): warning:  #177-D: variable "len" was declared but never referenced
+..\myself\src\client_tcpudp.c:                                                             uint16_t len;
+..\myself\src\client_tcpudp.c:                                                                      ^
+..\myself\src\client_tcpudp.c(331): warning:  #177-D: variable "len" was declared but never referenced
+..\myself\src\client_tcpudp.c:                                                             uint16_t len;
+..\myself\src\client_tcpudp.c:                                                                      ^
+..\myself\src\client_tcpudp.c(427): warning:  #175-D: subscript out of range
+..\myself\src\client_tcpudp.c:                                                    UID_STM32[16]=0x24;
+..\myself\src\client_tcpudp.c:                                                    ^
+..\myself\src\client_tcpudp.c(428): warning:  #175-D: subscript out of range
+..\myself\src\client_tcpudp.c:                                                    UID_STM32[17]=0x0d;  //efl
+..\myself\src\client_tcpudp.c:                                                             ^
+..\myself\src\client_tcpudp.c(429): warning:  #175-D: subscript out of range
+..\myself\src\client_tcpudp.c:                                                    UID_STM32[18]=0x0a;
+..\myself\src\client_tcpudp.c:                                                             ^
+..\myself\src\client_tcpudp.c(296): warning:  #177-D: variable "IDon" was declared but never referenced
+..\myself\src\client_tcpudp.c:                                          char IDon[7] ={0x67,0x74,0,0,1,0x0d,0x0a};
+..\myself\src\client_tcpudp.c:                                               ^
+..\myself\src\client_tcpudp.c(297): warning:  #177-D: variable "IDoff" was declared but never referenced
+..\myself\src\client_tcpudp.c:                                          char IDoff[7]={0x67,0x74,0,0,0,0x0d,0x0a};
+..\myself\src\client_tcpudp.c:                                               ^
+..\myself\src\client_tcpudp.c(298): warning:  #177-D: variable "IDs" was declared but never referenced
+..\myself\src\client_tcpudp.c:                                          char IDs[7]  ={0x67,0x74,0,0,2,0x0d,0x0a};
+..\myself\src\client_tcpudp.c:                                               ^
+..\myself\src\client_tcpudp.c(805): warning:  #940-D: missing return statement at end of non-void function "Tcp_recv"
+..\myself\src\client_tcpudp.c:   }
+..\myself\src\client_tcpudp.c:   ^
+..\myself\src\client_tcpudp.c: ..\myself\src\client_tcpudp.c: 10 warnings, 0 errors
+linking...
+Program Size: Code=57124 RO-data=756 RW-data=500 ZI-data=50764  
+FromELF: creating hex file...
+".\obj\lwip_gnu.axf" - 0 Error(s), 10 Warning(s).
+Load "C:\\Users\\mister-wang\\Desktop\\TCP2Modbus_v0.5.1\\Net2Modbus\\Lwip1.4.1+efls ByWang\\SDK\\obj\\lwip_gnu.AXF" 
+
+JLink info:
+-----------
+DLL: V4.86b, compiled Jun 27 2014 20:11:00
+Firmware: J-Link ARM V8 compiled Nov 25 2013 19:20:08
+Hardware: V8.00
+Feature(s) : RDI,FlashDL,FlashBP,JFlash,GDBFull 
+---
+* JLink Info: TotalIRLen = 9, IRPrint = 0x0011
+* JLink Info: Found Cortex-M3 r1p1, Little endian.
+* JLink Info: FPUnit: 6 code (BP) slots and 2 literal slots
+* JLink Info: TPIU fitted.
+* JLink Info: ETM fitted.
+
+Target info:
+------------
+Device: STM32F107VC
+* JLink Info: Device "STM32F107VC" selected (256 KB flash, 64 KB RAM).
+VTarget = 3.293V
+State of Pins: 
+TCK: 1, TDI: 0, TDO: 1, TMS: 0, TRES: 1, TRST: 1
+Hardware-Breakpoints: 6
+Software-Breakpoints: 8192
+Watchpoints:          4
+JTAG speed: 2000 kHz
+---
+Full Chip Erase Done.
+Programming Done.
+Verify OK.
+Application running ...
+Build target 'lwip2modbus'
+compiling client_tcpudp.c...
+..\myself\src\client_tcpudp.c(253): warning:  #1295-D: Deprecated declaration Getmeminf - give arg types
+..\myself\src\client_tcpudp.c:     extern char* Getmeminf();
+..\myself\src\client_tcpudp.c:                  ^
+..\myself\src\client_tcpudp.c(312): warning:  #177-D: variable "len" was declared but never referenced
+..\myself\src\client_tcpudp.c:                                                             uint16_t len;
+..\myself\src\client_tcpudp.c:                                                                      ^
+..\myself\src\client_tcpudp.c(331): warning:  #177-D: variable "len" was declared but never referenced
+..\myself\src\client_tcpudp.c:                                                             uint16_t len;
+..\myself\src\client_tcpudp.c:                                                                      ^
+..\myself\src\client_tcpudp.c(427): warning:  #175-D: subscript out of range
+..\myself\src\client_tcpudp.c:                                                    UID_STM32[16]=0x24;
+..\myself\src\client_tcpudp.c:                                                    ^
+..\myself\src\client_tcpudp.c(428): warning:  #175-D: subscript out of range
+..\myself\src\client_tcpudp.c:                                                    UID_STM32[17]=0x0d;  //efl
+..\myself\src\client_tcpudp.c:                                                             ^
+..\myself\src\client_tcpudp.c(429): warning:  #175-D: subscript out of range
+..\myself\src\client_tcpudp.c:                                                    UID_STM32[18]=0x0a;
+..\myself\src\client_tcpudp.c:                                                             ^
+..\myself\src\client_tcpudp.c(296): warning:  #177-D: variable "IDon" was declared but never referenced
+..\myself\src\client_tcpudp.c:                                          char IDon[7] ={0x67,0x74,0,0,1,0x0d,0x0a};
+..\myself\src\client_tcpudp.c:                                               ^
+..\myself\src\client_tcpudp.c(297): warning:  #177-D: variable "IDoff" was declared but never referenced
+..\myself\src\client_tcpudp.c:                                          char IDoff[7]={0x67,0x74,0,0,0,0x0d,0x0a};
+..\myself\src\client_tcpudp.c:                                               ^
+..\myself\src\client_tcpudp.c(298): warning:  #177-D: variable "IDs" was declared but never referenced
+..\myself\src\client_tcpudp.c:                                          char IDs[7]  ={0x67,0x74,0,0,2,0x0d,0x0a};
+..\myself\src\client_tcpudp.c:                                               ^
+..\myself\src\client_tcpudp.c(805): warning:  #940-D: missing return statement at end of non-void function "Tcp_recv"
+..\myself\src\client_tcpudp.c:   }
+..\myself\src\client_tcpudp.c:   ^
+..\myself\src\client_tcpudp.c: ..\myself\src\client_tcpudp.c: 10 warnings, 0 errors
+linking...
+Program Size: Code=57124 RO-data=756 RW-data=500 ZI-data=50764  
+FromELF: creating hex file...
+".\obj\lwip_gnu.axf" - 0 Error(s), 10 Warning(s).
+Build target 'lwip2modbus'
+compiling client_tcpudp.c...
+..\myself\src\client_tcpudp.c(253): warning:  #1295-D: Deprecated declaration Getmeminf - give arg types
+..\myself\src\client_tcpudp.c:     extern char* Getmeminf();
+..\myself\src\client_tcpudp.c:                  ^
+..\myself\src\client_tcpudp.c(312): warning:  #177-D: variable "len" was declared but never referenced
+..\myself\src\client_tcpudp.c:                                                             uint16_t len;
+..\myself\src\client_tcpudp.c:                                                                      ^
+..\myself\src\client_tcpudp.c(331): warning:  #177-D: variable "len" was declared but never referenced
+..\myself\src\client_tcpudp.c:                                                             uint16_t len;
+..\myself\src\client_tcpudp.c:                                                                      ^
+..\myself\src\client_tcpudp.c(427): warning:  #175-D: subscript out of range
+..\myself\src\client_tcpudp.c:                                                    UID_STM32[16]=0x24;
+..\myself\src\client_tcpudp.c:                                                    ^
+..\myself\src\client_tcpudp.c(428): warning:  #175-D: subscript out of range
+..\myself\src\client_tcpudp.c:                                                    UID_STM32[17]=0x0d;  //efl
+..\myself\src\client_tcpudp.c:                                                             ^
+..\myself\src\client_tcpudp.c(429): warning:  #175-D: subscript out of range
+..\myself\src\client_tcpudp.c:                                                    UID_STM32[18]=0x0a;
+..\myself\src\client_tcpudp.c:                                                             ^
+..\myself\src\client_tcpudp.c(296): warning:  #177-D: variable "IDon" was declared but never referenced
+..\myself\src\client_tcpudp.c:                                          char IDon[7] ={0x67,0x74,0,0,1,0x0d,0x0a};
+..\myself\src\client_tcpudp.c:                                               ^
+..\myself\src\client_tcpudp.c(297): warning:  #177-D: variable "IDoff" was declared but never referenced
+..\myself\src\client_tcpudp.c:                                          char IDoff[7]={0x67,0x74,0,0,0,0x0d,0x0a};
+..\myself\src\client_tcpudp.c:                                               ^
+..\myself\src\client_tcpudp.c(298): warning:  #177-D: variable "IDs" was declared but never referenced
+..\myself\src\client_tcpudp.c:                                          char IDs[7]  ={0x67,0x74,0,0,2,0x0d,0x0a};
+..\myself\src\client_tcpudp.c:                                               ^
+..\myself\src\client_tcpudp.c(805): warning:  #940-D: missing return statement at end of non-void function "Tcp_recv"
+..\myself\src\client_tcpudp.c:   }
+..\myself\src\client_tcpudp.c:   ^
+..\myself\src\client_tcpudp.c: ..\myself\src\client_tcpudp.c: 10 warnings, 0 errors
+linking...
+Program Size: Code=57120 RO-data=756 RW-data=500 ZI-data=50764  
+FromELF: creating hex file...
+".\obj\lwip_gnu.axf" - 0 Error(s), 10 Warning(s).
+Build target 'lwip2modbus'
+compiling client_tcpudp.c...
+..\myself\src\client_tcpudp.c(253): warning:  #1295-D: Deprecated declaration Getmeminf - give arg types
+..\myself\src\client_tcpudp.c:     extern char* Getmeminf();
+..\myself\src\client_tcpudp.c:                  ^
+..\myself\src\client_tcpudp.c(312): warning:  #177-D: variable "len" was declared but never referenced
+..\myself\src\client_tcpudp.c:                                                             uint16_t len;
+..\myself\src\client_tcpudp.c:                                                                      ^
+..\myself\src\client_tcpudp.c(331): warning:  #177-D: variable "len" was declared but never referenced
+..\myself\src\client_tcpudp.c:                                                             uint16_t len;
+..\myself\src\client_tcpudp.c:                                                                      ^
+..\myself\src\client_tcpudp.c(427): warning:  #175-D: subscript out of range
+..\myself\src\client_tcpudp.c:                                                    UID_STM32[16]=0x24;
+..\myself\src\client_tcpudp.c:                                                    ^
+..\myself\src\client_tcpudp.c(428): warning:  #175-D: subscript out of range
+..\myself\src\client_tcpudp.c:                                                    UID_STM32[17]=0x0d;  //efl
+..\myself\src\client_tcpudp.c:                                                             ^
+..\myself\src\client_tcpudp.c(429): warning:  #175-D: subscript out of range
+..\myself\src\client_tcpudp.c:                                                    UID_STM32[18]=0x0a;
+..\myself\src\client_tcpudp.c:                                                             ^
+..\myself\src\client_tcpudp.c(296): warning:  #177-D: variable "IDon" was declared but never referenced
+..\myself\src\client_tcpudp.c:                                          char IDon[7] ={0x67,0x74,0,0,1,0x0d,0x0a};
+..\myself\src\client_tcpudp.c:                                               ^
+..\myself\src\client_tcpudp.c(297): warning:  #177-D: variable "IDoff" was declared but never referenced
+..\myself\src\client_tcpudp.c:                                          char IDoff[7]={0x67,0x74,0,0,0,0x0d,0x0a};
+..\myself\src\client_tcpudp.c:                                               ^
+..\myself\src\client_tcpudp.c(298): warning:  #177-D: variable "IDs" was declared but never referenced
+..\myself\src\client_tcpudp.c:                                          char IDs[7]  ={0x67,0x74,0,0,2,0x0d,0x0a};
+..\myself\src\client_tcpudp.c:                                               ^
+..\myself\src\client_tcpudp.c(809): warning:  #940-D: missing return statement at end of non-void function "Tcp_recv"
+..\myself\src\client_tcpudp.c:   }
+..\myself\src\client_tcpudp.c:   ^
+..\myself\src\client_tcpudp.c: ..\myself\src\client_tcpudp.c: 10 warnings, 0 errors
+linking...
+Program Size: Code=57128 RO-data=756 RW-data=500 ZI-data=50764  
+FromELF: creating hex file...
+".\obj\lwip_gnu.axf" - 0 Error(s), 10 Warning(s).
+Load "C:\\Users\\mister-wang\\Desktop\\TCP2Modbus_v0.5.1\\Net2Modbus\\Lwip1.4.1+efls ByWang\\SDK\\obj\\lwip_gnu.AXF" 
+
+JLink info:
+-----------
+DLL: V4.86b, compiled Jun 27 2014 20:11:00
+Firmware: J-Link ARM V8 compiled Nov 25 2013 19:20:08
+Hardware: V8.00
+Feature(s) : RDI,FlashDL,FlashBP,JFlash,GDBFull 
+---
+* JLink Info: TotalIRLen = 9, IRPrint = 0x0011
+* JLink Info: Found Cortex-M3 r1p1, Little endian.
+* JLink Info: FPUnit: 6 code (BP) slots and 2 literal slots
+* JLink Info: TPIU fitted.
+* JLink Info: ETM fitted.
+
+Target info:
+------------
+Device: STM32F107VC
+* JLink Info: Device "STM32F107VC" selected (256 KB flash, 64 KB RAM).
+VTarget = 3.293V
+State of Pins: 
+TCK: 1, TDI: 0, TDO: 1, TMS: 0, TRES: 1, TRST: 1
+Hardware-Breakpoints: 6
+Software-Breakpoints: 8192
+Watchpoints:          4
+JTAG speed: 2000 kHz
+---
+Full Chip Erase Done.
+Programming Done.
+Verify OK.
+Application running ...
+Build target 'lwip2modbus'
+compiling client_tcpudp.c...
+..\myself\src\client_tcpudp.c(253): warning:  #1295-D: Deprecated declaration Getmeminf - give arg types
+..\myself\src\client_tcpudp.c:     extern char* Getmeminf();
+..\myself\src\client_tcpudp.c:                  ^
+..\myself\src\client_tcpudp.c(312): warning:  #177-D: variable "len" was declared but never referenced
+..\myself\src\client_tcpudp.c:                                                             uint16_t len;
+..\myself\src\client_tcpudp.c:                                                                      ^
+..\myself\src\client_tcpudp.c(331): warning:  #177-D: variable "len" was declared but never referenced
+..\myself\src\client_tcpudp.c:                                                             uint16_t len;
+..\myself\src\client_tcpudp.c:                                                                      ^
+..\myself\src\client_tcpudp.c(427): warning:  #175-D: subscript out of range
+..\myself\src\client_tcpudp.c:                                                    UID_STM32[16]=0x24;
+..\myself\src\client_tcpudp.c:                                                    ^
+..\myself\src\client_tcpudp.c(428): warning:  #175-D: subscript out of range
+..\myself\src\client_tcpudp.c:                                                    UID_STM32[17]=0x0d;  //efl
+..\myself\src\client_tcpudp.c:                                                             ^
+..\myself\src\client_tcpudp.c(429): warning:  #175-D: subscript out of range
+..\myself\src\client_tcpudp.c:                                                    UID_STM32[18]=0x0a;
+..\myself\src\client_tcpudp.c:                                                             ^
+..\myself\src\client_tcpudp.c(296): warning:  #177-D: variable "IDon" was declared but never referenced
+..\myself\src\client_tcpudp.c:                                          char IDon[7] ={0x67,0x74,0,0,1,0x0d,0x0a};
+..\myself\src\client_tcpudp.c:                                               ^
+..\myself\src\client_tcpudp.c(297): warning:  #177-D: variable "IDoff" was declared but never referenced
+..\myself\src\client_tcpudp.c:                                          char IDoff[7]={0x67,0x74,0,0,0,0x0d,0x0a};
+..\myself\src\client_tcpudp.c:                                               ^
+..\myself\src\client_tcpudp.c(298): warning:  #177-D: variable "IDs" was declared but never referenced
+..\myself\src\client_tcpudp.c:                                          char IDs[7]  ={0x67,0x74,0,0,2,0x0d,0x0a};
+..\myself\src\client_tcpudp.c:                                               ^
+..\myself\src\client_tcpudp.c(805): warning:  #940-D: missing return statement at end of non-void function "Tcp_recv"
+..\myself\src\client_tcpudp.c:   }
+..\myself\src\client_tcpudp.c:   ^
+..\myself\src\client_tcpudp.c: ..\myself\src\client_tcpudp.c: 10 warnings, 0 errors
+linking...
+Program Size: Code=57120 RO-data=756 RW-data=500 ZI-data=50764  
+FromELF: creating hex file...
+".\obj\lwip_gnu.axf" - 0 Error(s), 10 Warning(s).
+Build target 'lwip2modbus'
+linking...
+Program Size: Code=57120 RO-data=756 RW-data=500 ZI-data=50764  
+FromELF: creating hex file...
+".\obj\lwip_gnu.axf" - 0 Error(s), 0 Warning(s).
+Load "C:\\Users\\mister-wang\\Desktop\\TCP2Modbus_v0.5.1\\Net2Modbus\\Lwip1.4.1+efls ByWang\\SDK\\obj\\lwip_gnu.AXF" 
+
+JLink info:
+-----------
+DLL: V4.86b, compiled Jun 27 2014 20:11:00
+Firmware: J-Link ARM V8 compiled Nov 25 2013 19:20:08
+Hardware: V8.00
+Feature(s) : RDI,FlashDL,FlashBP,JFlash,GDBFull 
+---
+* JLink Info: TotalIRLen = 9, IRPrint = 0x0011
+* JLink Info: Found Cortex-M3 r1p1, Little endian.
+* JLink Info: FPUnit: 6 code (BP) slots and 2 literal slots
+* JLink Info: TPIU fitted.
+* JLink Info: ETM fitted.
+
+Target info:
+------------
+Device: STM32F107VC
+* JLink Info: Device "STM32F107VC" selected (256 KB flash, 64 KB RAM).
+VTarget = 3.293V
+State of Pins: 
+TCK: 1, TDI: 0, TDO: 1, TMS: 0, TRES: 1, TRST: 1
+Hardware-Breakpoints: 6
+Software-Breakpoints: 8192
+Watchpoints:          4
+JTAG speed: 2000 kHz
+---
+Full Chip Erase Done.
+Programming Done.
+Verify OK.
+Application running ...
+Build target 'lwip2modbus'
+linking...
+Program Size: Code=57120 RO-data=756 RW-data=500 ZI-data=50764  
+FromELF: creating hex file...
+".\obj\lwip_gnu.axf" - 0 Error(s), 0 Warning(s).
+Build target 'lwip2modbus'
+compiling netconf.c...
+..\myself\src\netconf.c(187): warning:  #223-D: function "tcp_tmr" declared implicitly
+..\myself\src\netconf.c:       tcp_tmr();
+..\myself\src\netconf.c:       ^
+..\myself\src\netconf.c(52): warning:  #177-D: variable "IPaddress" was declared but never referenced
+..\myself\src\netconf.c:   static uint32_t IPaddress = 0;
+..\myself\src\netconf.c:                   ^
+..\myself\src\netconf.c: ..\myself\src\netconf.c: 2 warnings, 0 errors
+compiling stm32f10x_it.c...
+..\myself\src\stm32f10x_it.c(155): warning:  #1295-D: Deprecated declaration Read_Eth_Packet - give arg types
+..\myself\src\stm32f10x_it.c:     extern void Read_Eth_Packet(); //读取数据包大BUFF中
+..\myself\src\stm32f10x_it.c:                 ^
+..\myself\src\stm32f10x_it.c: ..\myself\src\stm32f10x_it.c: 1 warning, 0 errors
+compiling stm32f107.c...
+..\myself\src\stm32f107.c(69): warning:  #223-D: function "eMBMasterInit" declared implicitly
+..\myself\src\stm32f107.c:               eMBMasterInit( MB_RTU, 2, 9600,MB_PAR_NONE );
+..\myself\src\stm32f107.c:               ^
+..\myself\src\stm32f107.c(71): warning:  #223-D: function "eMBMasterEnable" declared implicitly
+..\myself\src\stm32f107.c:            eMBMasterEnable();
+..\myself\src\stm32f107.c:            ^
+..\myself\src\stm32f107.c: ..\myself\src\stm32f107.c: 2 warnings, 0 errors
+compiling client_tcpudp.c...
+..\myself\src\client_tcpudp.c(276): warning:  #1295-D: Deprecated declaration Getmeminf - give arg types
+..\myself\src\client_tcpudp.c:     extern char* Getmeminf();
+..\myself\src\client_tcpudp.c:                  ^
+..\myself\src\client_tcpudp.c(335): warning:  #177-D: variable "len" was declared but never referenced
+..\myself\src\client_tcpudp.c:                                                             uint16_t len;
+..\myself\src\client_tcpudp.c:                                                                      ^
+..\myself\src\client_tcpudp.c(354): warning:  #177-D: variable "len" was declared but never referenced
+..\myself\src\client_tcpudp.c:                                                             uint16_t len;
+..\myself\src\client_tcpudp.c:                                                                      ^
+..\myself\src\client_tcpudp.c(450): warning:  #175-D: subscript out of range
+..\myself\src\client_tcpudp.c:                                                    UID_STM32[16]=0x24;
+..\myself\src\client_tcpudp.c:                                                    ^
+..\myself\src\client_tcpudp.c(451): warning:  #175-D: subscript out of range
+..\myself\src\client_tcpudp.c:                                                    UID_STM32[17]=0x0d;  //efl
+..\myself\src\client_tcpudp.c:                                                             ^
+..\myself\src\client_tcpudp.c(452): warning:  #175-D: subscript out of range
+..\myself\src\client_tcpudp.c:                                                    UID_STM32[18]=0x0a;
+..\myself\src\client_tcpudp.c:                                                             ^
+..\myself\src\client_tcpudp.c(319): warning:  #177-D: variable "IDon" was declared but never referenced
+..\myself\src\client_tcpudp.c:                                          char IDon[7] ={0x67,0x74,0,0,1,0x0d,0x0a};
+..\myself\src\client_tcpudp.c:                                               ^
+..\myself\src\client_tcpudp.c(320): warning:  #177-D: variable "IDoff" was declared but never referenced
+..\myself\src\client_tcpudp.c:                                          char IDoff[7]={0x67,0x74,0,0,0,0x0d,0x0a};
+..\myself\src\client_tcpudp.c:                                               ^
+..\myself\src\client_tcpudp.c(321): warning:  #177-D: variable "IDs" was declared but never referenced
+..\myself\src\client_tcpudp.c:                                          char IDs[7]  ={0x67,0x74,0,0,2,0x0d,0x0a};
+..\myself\src\client_tcpudp.c:                                               ^
+..\myself\src\client_tcpudp.c(828): warning:  #940-D: missing return statement at end of non-void function "Tcp_recv"
+..\myself\src\client_tcpudp.c:   }
+..\myself\src\client_tcpudp.c:   ^
+..\myself\src\client_tcpudp.c: ..\myself\src\client_tcpudp.c: 10 warnings, 0 errors
+compiling DS18B20SROM.c...
+..\myself\src\DS18B20SROM.c(533): warning:  #223-D: function "FS_Writehtml" declared implicitly
+..\myself\src\DS18B20SROM.c:    FS_Writehtml((char*)temp,33);
+..\myself\src\DS18B20SROM.c:    ^
+..\myself\src\DS18B20SROM.c: ..\myself\src\DS18B20SROM.c: 1 warning, 0 errors
+compiling main.c...
+..\myself\src\main.c(105): warning:  #14-D: extra text after expected end of preprocessing directive
+..\myself\src\main.c:                     #ifdef USED_FILESYSTEM && USED_HTTP
+..\myself\src\main.c:                                            ^
+..\myself\src\main.c(121): warning:  #223-D: function "TcpTestThread" declared implicitly
+..\myself\src\main.c:                             TcpTestThread(LocalTime);
+..\myself\src\main.c:                             ^
+..\myself\src\main.c(129): warning:  #223-D: function "eMBMasterPoll" declared implicitly
+..\myself\src\main.c:                            (void)eMBMasterPoll();//空闲检查 modbus RTU 数据
+..\myself\src\main.c:                                  ^
+..\myself\src\main.c: ..\myself\src\main.c: 3 warnings, 0 errors
+compiling ethernetif.c...
+..\GNU源码\lwip-1.4.1\archport\port\ethernetif.c(295): warning:  #550-D: variable "fd" was set but never used
+..\GNU源码\lwip-1.4.1\archport\port\ethernetif.c:         FrameTypeDef fd;
+..\GNU源码\lwip-1.4.1\archport\port\ethernetif.c:                      ^
+..\GNU源码\lwip-1.4.1\archport\port\ethernetif.c(433): warning:  #236-D: controlling expression is constant
+..\GNU源码\lwip-1.4.1\archport\port\ethernetif.c:     LWIP_ASSERT("netif != NULL", (netif != NULL));
+..\GNU源码\lwip-1.4.1\archport\port\ethernetif.c:     ^
+..\GNU源码\lwip-1.4.1\archport\port\ethernetif.c(547): warning:  #223-D: function "Ethernet_Configuration" declared implicitly
+..\GNU源码\lwip-1.4.1\archport\port\ethernetif.c:        Ethernet_Configuration();
+..\GNU源码\lwip-1.4.1\archport\port\ethernetif.c:        ^
+..\GNU源码\lwip-1.4.1\archport\port\ethernetif.c: ..\GNU源码\lwip-1.4.1\archport\port\ethernetif.c: 3 warnings, 0 errors
+compiling sd_stm32.c...
+compiling smtp.c...
+..\smtp\smtp.c(496): warning:  #520-D: initialization with "{...}" expected for aggregate object
+..\smtp\smtp.c:   unsigned int  smtp_Tcp_count[10]=0;
+..\smtp\smtp.c:                                    ^
+..\smtp\smtp.c(505): warning:  #236-D: controlling expression is constant
+..\smtp\smtp.c:     LWIP_ASSERT("no smtp_session supplied", s != NULL);
+..\smtp\smtp.c:     ^
+..\smtp\smtp.c(690): warning:  #236-D: controlling expression is constant
+..\smtp\smtp.c:     LWIP_ASSERT("string is too long", len <= 0xffff);
+..\smtp\smtp.c:     ^
+..\smtp\smtp.c(694): warning:  #236-D: controlling expression is constant
+..\smtp\smtp.c:     LWIP_ASSERT("string is too long", len <= 0xffff);
+..\smtp\smtp.c:     ^
+..\smtp\smtp.c(698): warning:  #236-D: controlling expression is constant
+..\smtp\smtp.c:     LWIP_ASSERT("string is too long", len <= 0xffff);
+..\smtp\smtp.c:     ^
+..\smtp\smtp.c(702): warning:  #236-D: controlling expression is constant
+..\smtp\smtp.c:     LWIP_ASSERT("string is too long", len <= 0xffff);
+..\smtp\smtp.c:     ^
+..\smtp\smtp.c(733): warning:  #236-D: controlling expression is constant
+..\smtp\smtp.c:     LWIP_ASSERT("smtp_send_mail_int: no argument given", arg != NULL);
+..\smtp\smtp.c:     ^
+..\smtp\smtp.c(956): warning:  #236-D: controlling expression is constant
+..\smtp\smtp.c:     LWIP_ASSERT("target_len is too short", target_len >= len);
+..\smtp\smtp.c:     ^
+..\smtp\smtp.c(1056): warning:  #236-D: controlling expression is constant
+..\smtp\smtp.c:     LWIP_ASSERT("ipaddr_ntoa returned NULL", ipa != NULL);
+..\smtp\smtp.c:     ^
+..\smtp\smtp.c(1058): warning:  #236-D: controlling expression is constant
+..\smtp\smtp.c:     LWIP_ASSERT("string too long", ipa_len <= 0xffff);
+..\smtp\smtp.c:     ^
+..\smtp\smtp.c(1061): warning:  #236-D: controlling expression is constant
+..\smtp\smtp.c:     LWIP_ASSERT("tx_buf overflow detected", *tx_buf_len <= SMTP_TX_BUF_LEN);
+..\smtp\smtp.c:     ^
+..\smtp\smtp.c(1088): warning:  #177-D: variable "sep" was declared but never referenced
+..\smtp\smtp.c:           char *sep = s->tx_buf + SMTP_KEYWORD_AUTH_LEN;
+..\smtp\smtp.c:                 ^
+..\smtp\smtp.c(1136): warning:  #236-D: controlling expression is constant
+..\smtp\smtp.c:     LWIP_ASSERT("string too long", base64_len <= 0xffff);
+..\smtp\smtp.c:     ^
+..\smtp\smtp.c(1137): warning:  #236-D: controlling expression is constant
+..\smtp\smtp.c:     LWIP_ASSERT("tx_buf overflow detected", base64_len + SMTP_CRLF_LEN <= SMTP_TX_BUF_LEN);
+..\smtp\smtp.c:     ^
+..\smtp\smtp.c(1152): warning:  #236-D: controlling expression is constant
+..\smtp\smtp.c:     LWIP_ASSERT("string too long", base64_len <= 0xffff);
+..\smtp\smtp.c:     ^
+..\smtp\smtp.c(1153): warning:  #236-D: controlling expression is constant
+..\smtp\smtp.c:     LWIP_ASSERT("tx_buf overflow detected", base64_len + SMTP_CRLF_LEN <= SMTP_TX_BUF_LEN);
+..\smtp\smtp.c:     ^
+..\smtp\smtp.c(1168): warning:  #236-D: controlling expression is constant
+..\smtp\smtp.c:     LWIP_ASSERT("tx_buf overflow detected", *tx_buf_len <= SMTP_TX_BUF_LEN);
+..\smtp\smtp.c:     ^
+..\smtp\smtp.c(1185): warning:  #236-D: controlling expression is constant
+..\smtp\smtp.c:     LWIP_ASSERT("tx_buf overflow detected", *tx_buf_len <= SMTP_TX_BUF_LEN);
+..\smtp\smtp.c:     ^
+..\smtp\smtp.c(1204): warning:  #236-D: controlling expression is constant
+..\smtp\smtp.c:     LWIP_ASSERT("tx_buf overflow detected", *tx_buf_len <= SMTP_TX_BUF_LEN);
+..\smtp\smtp.c:     ^
+..\smtp\smtp.c(1231): warning:  #236-D: controlling expression is constant
+..\smtp\smtp.c:     LWIP_ASSERT("tx_buf overflow detected", *tx_buf_len <= SMTP_TX_BUF_LEN);
+..\smtp\smtp.c:     ^
+..\smtp\smtp.c: ..\smtp\smtp.c: 20 warnings, 0 errors
+compiling snmp_app.c...
+..\smtp\snmp_app.c(42): warning:  #1-D: last line of file ends without a newline
+..\smtp\snmp_app.c:   #endif                                                                               
+..\smtp\snmp_app.c:                                                                                        ^
+..\smtp\snmp_app.c: ..\smtp\snmp_app.c: 1 warning, 0 errors
+compiling modbus_main.c...
+..\modbus\User\modbus_main.c(71): warning:  #513-D: a value of type "uint8_t *" cannot be assigned to an entity of type "char *"
+..\modbus\User\modbus_main.c:                                                                                    sptr =   &TCP2RS485CMDLIST[0]; //取BUFF地址
+..\modbus\User\modbus_main.c:                                                                                         ^
+..\modbus\User\modbus_main.c(249): warning:  #223-D: function "eMBMasterInit" declared implicitly
+..\modbus\User\modbus_main.c:       eStatus = eMBMasterInit( MB_RTU, 2, 9600,MB_PAR_NONE );
+..\modbus\User\modbus_main.c:                 ^
+..\modbus\User\modbus_main.c(249): warning:  #188-D: enumerated type mixed with another type
+..\modbus\User\modbus_main.c:       eStatus = eMBMasterInit( MB_RTU, 2, 9600,MB_PAR_NONE );
+..\modbus\User\modbus_main.c:               ^
+..\modbus\User\modbus_main.c(254): warning:  #223-D: function "eMBMasterEnable" declared implicitly
+..\modbus\User\modbus_main.c:       eStatus = eMBMasterEnable();
+..\modbus\User\modbus_main.c:                 ^
+..\modbus\User\modbus_main.c(254): warning:  #188-D: enumerated type mixed with another type
+..\modbus\User\modbus_main.c:       eStatus = eMBMasterEnable();
+..\modbus\User\modbus_main.c:               ^
+..\modbus\User\modbus_main.c(280): warning:  #223-D: function "eMBMasterPoll" declared implicitly
+..\modbus\User\modbus_main.c:                           (void)eMBMasterPoll();
+..\modbus\User\modbus_main.c:                                 ^
+..\modbus\User\modbus_main.c(234): warning:  #550-D: variable "eStatus" was set but never used
+..\modbus\User\modbus_main.c:       eMBErrorCode    eStatus;
+..\modbus\User\modbus_main.c:                       ^
+..\modbus\User\modbus_main.c(300): warning:  #223-D: function "vMBMasterGetPDUSndBuf" declared implicitly
+..\modbus\User\modbus_main.c:                     vMBMasterGetPDUSndBuf( &p );   //The 1st  we get the pdu buffer point
+..\modbus\User\modbus_main.c:                     ^
+..\modbus\User\modbus_main.c(309): warning:  #223-D: function "eMBMasterRTUSend" declared implicitly
+..\modbus\User\modbus_main.c:                       eMBMasterRTUSend( Slave_addr, p, len );     //      start up snet status machin and excution sent data on RTU 
+..\modbus\User\modbus_main.c:                       ^
+..\modbus\User\modbus_main.c(16): warning:  #177-D: variable "t32" was declared but never referenced
+..\modbus\User\modbus_main.c:             static  uint32_t t32=0;
+..\modbus\User\modbus_main.c:                              ^
+..\modbus\User\modbus_main.c: ..\modbus\User\modbus_main.c: 10 warnings, 0 errors
+compiling flash_if.c...
+linking...
+Program Size: Code=57300 RO-data=756 RW-data=500 ZI-data=50764  
+FromELF: creating hex file...
+".\obj\lwip_gnu.axf" - 0 Error(s), 53 Warning(s).
+Load "C:\\Users\\mister-wang\\Desktop\\TCP2Modbus_v0.5.1\\Net2Modbus\\Lwip1.4.1+efls ByWang\\SDK\\obj\\lwip_gnu.AXF" 
+
+JLink info:
+-----------
+DLL: V4.86b, compiled Jun 27 2014 20:11:00
+Firmware: J-Link ARM V8 compiled Nov 25 2013 19:20:08
+Hardware: V8.00
+Feature(s) : RDI,FlashDL,FlashBP,JFlash,GDBFull 
+---
+* JLink Info: TotalIRLen = 9, IRPrint = 0x0011
+* JLink Info: Found Cortex-M3 r1p1, Little endian.
+* JLink Info: FPUnit: 6 code (BP) slots and 2 literal slots
+* JLink Info: TPIU fitted.
+* JLink Info: ETM fitted.
+
+Target info:
+------------
+Device: STM32F107VC
+* JLink Info: Device "STM32F107VC" selected (256 KB flash, 64 KB RAM).
+VTarget = 3.293V
+State of Pins: 
+TCK: 1, TDI: 0, TDO: 1, TMS: 0, TRES: 1, TRST: 1
+Hardware-Breakpoints: 6
+Software-Breakpoints: 8192
+Watchpoints:          4
+JTAG speed: 2000 kHz
+---
+Full Chip Erase Done.
+Programming Done.
+Verify OK.
+Application running ...
+Build target 'lwip2modbus'
+compiling client_tcpudp.c...
+..\myself\src\client_tcpudp.c(276): warning:  #1295-D: Deprecated declaration Getmeminf - give arg types
+..\myself\src\client_tcpudp.c:     extern char* Getmeminf();
+..\myself\src\client_tcpudp.c:                  ^
+..\myself\src\client_tcpudp.c(335): warning:  #177-D: variable "len" was declared but never referenced
+..\myself\src\client_tcpudp.c:                                                             uint16_t len;
+..\myself\src\client_tcpudp.c:                                                                      ^
+..\myself\src\client_tcpudp.c(354): warning:  #177-D: variable "len" was declared but never referenced
+..\myself\src\client_tcpudp.c:                                                             uint16_t len;
+..\myself\src\client_tcpudp.c:                                                                      ^
+..\myself\src\client_tcpudp.c(450): warning:  #175-D: subscript out of range
+..\myself\src\client_tcpudp.c:                                                    UID_STM32[16]=0x24;
+..\myself\src\client_tcpudp.c:                                                    ^
+..\myself\src\client_tcpudp.c(451): warning:  #175-D: subscript out of range
+..\myself\src\client_tcpudp.c:                                                    UID_STM32[17]=0x0d;  //efl
+..\myself\src\client_tcpudp.c:                                                             ^
+..\myself\src\client_tcpudp.c(452): warning:  #175-D: subscript out of range
+..\myself\src\client_tcpudp.c:                                                    UID_STM32[18]=0x0a;
+..\myself\src\client_tcpudp.c:                                                             ^
+..\myself\src\client_tcpudp.c(319): warning:  #177-D: variable "IDon" was declared but never referenced
+..\myself\src\client_tcpudp.c:                                          char IDon[7] ={0x67,0x74,0,0,1,0x0d,0x0a};
+..\myself\src\client_tcpudp.c:                                               ^
+..\myself\src\client_tcpudp.c(320): warning:  #177-D: variable "IDoff" was declared but never referenced
+..\myself\src\client_tcpudp.c:                                          char IDoff[7]={0x67,0x74,0,0,0,0x0d,0x0a};
+..\myself\src\client_tcpudp.c:                                               ^
+..\myself\src\client_tcpudp.c(321): warning:  #177-D: variable "IDs" was declared but never referenced
+..\myself\src\client_tcpudp.c:                                          char IDs[7]  ={0x67,0x74,0,0,2,0x0d,0x0a};
+..\myself\src\client_tcpudp.c:                                               ^
+..\myself\src\client_tcpudp.c(828): warning:  #940-D: missing return statement at end of non-void function "Tcp_recv"
+..\myself\src\client_tcpudp.c:   }
+..\myself\src\client_tcpudp.c:   ^
+..\myself\src\client_tcpudp.c: ..\myself\src\client_tcpudp.c: 10 warnings, 0 errors
+linking...
+Program Size: Code=57300 RO-data=756 RW-data=500 ZI-data=50764  
+FromELF: creating hex file...
+".\obj\lwip_gnu.axf" - 0 Error(s), 10 Warning(s).
+Load "C:\\Users\\mister-wang\\Desktop\\TCP2Modbus_v0.5.1\\Net2Modbus\\Lwip1.4.1+efls ByWang\\SDK\\obj\\lwip_gnu.AXF" 
+
+JLink info:
+-----------
+DLL: V4.86b, compiled Jun 27 2014 20:11:00
+Firmware: J-Link ARM V8 compiled Nov 25 2013 19:20:08
+Hardware: V8.00
+Feature(s) : RDI,FlashDL,FlashBP,JFlash,GDBFull 
+---
+* JLink Info: TotalIRLen = 9, IRPrint = 0x0011
+* JLink Info: Found Cortex-M3 r1p1, Little endian.
+* JLink Info: FPUnit: 6 code (BP) slots and 2 literal slots
+* JLink Info: TPIU fitted.
+* JLink Info: ETM fitted.
+
+Target info:
+------------
+Device: STM32F107VC
+* JLink Info: Device "STM32F107VC" selected (256 KB flash, 64 KB RAM).
+VTarget = 3.293V
+State of Pins: 
+TCK: 1, TDI: 0, TDO: 1, TMS: 0, TRES: 1, TRST: 1
+Hardware-Breakpoints: 6
+Software-Breakpoints: 8192
+Watchpoints:          4
+JTAG speed: 2000 kHz
+---
+Full Chip Erase Done.
+Programming Done.
+Verify OK.
+Application running ...
+Build target 'lwip2modbus'
+compiling client_tcpudp.c...
+..\myself\src\client_tcpudp.c(276): warning:  #1295-D: Deprecated declaration Getmeminf - give arg types
+..\myself\src\client_tcpudp.c:     extern char* Getmeminf();
+..\myself\src\client_tcpudp.c:                  ^
+..\myself\src\client_tcpudp.c(335): warning:  #177-D: variable "len" was declared but never referenced
+..\myself\src\client_tcpudp.c:                                                             uint16_t len;
+..\myself\src\client_tcpudp.c:                                                                      ^
+..\myself\src\client_tcpudp.c(354): warning:  #177-D: variable "len" was declared but never referenced
+..\myself\src\client_tcpudp.c:                                                             uint16_t len;
+..\myself\src\client_tcpudp.c:                                                                      ^
+..\myself\src\client_tcpudp.c(450): warning:  #175-D: subscript out of range
+..\myself\src\client_tcpudp.c:                                                    UID_STM32[16]=0x24;
+..\myself\src\client_tcpudp.c:                                                    ^
+..\myself\src\client_tcpudp.c(451): warning:  #175-D: subscript out of range
+..\myself\src\client_tcpudp.c:                                                    UID_STM32[17]=0x0d;  //efl
+..\myself\src\client_tcpudp.c:                                                             ^
+..\myself\src\client_tcpudp.c(452): warning:  #175-D: subscript out of range
+..\myself\src\client_tcpudp.c:                                                    UID_STM32[18]=0x0a;
+..\myself\src\client_tcpudp.c:                                                             ^
+..\myself\src\client_tcpudp.c(319): warning:  #177-D: variable "IDon" was declared but never referenced
+..\myself\src\client_tcpudp.c:                                          char IDon[7] ={0x67,0x74,0,0,1,0x0d,0x0a};
+..\myself\src\client_tcpudp.c:                                               ^
+..\myself\src\client_tcpudp.c(320): warning:  #177-D: variable "IDoff" was declared but never referenced
+..\myself\src\client_tcpudp.c:                                          char IDoff[7]={0x67,0x74,0,0,0,0x0d,0x0a};
+..\myself\src\client_tcpudp.c:                                               ^
+..\myself\src\client_tcpudp.c(321): warning:  #177-D: variable "IDs" was declared but never referenced
+..\myself\src\client_tcpudp.c:                                          char IDs[7]  ={0x67,0x74,0,0,2,0x0d,0x0a};
+..\myself\src\client_tcpudp.c:                                               ^
+..\myself\src\client_tcpudp.c(828): warning:  #940-D: missing return statement at end of non-void function "Tcp_recv"
+..\myself\src\client_tcpudp.c:   }
+..\myself\src\client_tcpudp.c:   ^
+..\myself\src\client_tcpudp.c: ..\myself\src\client_tcpudp.c: 10 warnings, 0 errors
+linking...
+Program Size: Code=57300 RO-data=756 RW-data=500 ZI-data=50764  
+FromELF: creating hex file...
+".\obj\lwip_gnu.axf" - 0 Error(s), 10 Warning(s).
+Build target 'lwip2modbus'
+compiling client_tcpudp.c...
+..\myself\src\client_tcpudp.c(276): warning:  #1295-D: Deprecated declaration Getmeminf - give arg types
+..\myself\src\client_tcpudp.c:     extern char* Getmeminf();
+..\myself\src\client_tcpudp.c:                  ^
+..\myself\src\client_tcpudp.c(335): warning:  #177-D: variable "len" was declared but never referenced
+..\myself\src\client_tcpudp.c:                                                             uint16_t len;
+..\myself\src\client_tcpudp.c:                                                                      ^
+..\myself\src\client_tcpudp.c(354): warning:  #177-D: variable "len" was declared but never referenced
+..\myself\src\client_tcpudp.c:                                                             uint16_t len;
+..\myself\src\client_tcpudp.c:                                                                      ^
+..\myself\src\client_tcpudp.c(450): warning:  #175-D: subscript out of range
+..\myself\src\client_tcpudp.c:                                                    UID_STM32[16]=0x24;
+..\myself\src\client_tcpudp.c:                                                    ^
+..\myself\src\client_tcpudp.c(451): warning:  #175-D: subscript out of range
+..\myself\src\client_tcpudp.c:                                                    UID_STM32[17]=0x0d;  //efl
+..\myself\src\client_tcpudp.c:                                                             ^
+..\myself\src\client_tcpudp.c(452): warning:  #175-D: subscript out of range
+..\myself\src\client_tcpudp.c:                                                    UID_STM32[18]=0x0a;
+..\myself\src\client_tcpudp.c:                                                             ^
+..\myself\src\client_tcpudp.c(319): warning:  #177-D: variable "IDon" was declared but never referenced
+..\myself\src\client_tcpudp.c:                                          char IDon[7] ={0x67,0x74,0,0,1,0x0d,0x0a};
+..\myself\src\client_tcpudp.c:                                               ^
+..\myself\src\client_tcpudp.c(320): warning:  #177-D: variable "IDoff" was declared but never referenced
+..\myself\src\client_tcpudp.c:                                          char IDoff[7]={0x67,0x74,0,0,0,0x0d,0x0a};
+..\myself\src\client_tcpudp.c:                                               ^
+..\myself\src\client_tcpudp.c(321): warning:  #177-D: variable "IDs" was declared but never referenced
+..\myself\src\client_tcpudp.c:                                          char IDs[7]  ={0x67,0x74,0,0,2,0x0d,0x0a};
+..\myself\src\client_tcpudp.c:                                               ^
+..\myself\src\client_tcpudp.c(828): warning:  #940-D: missing return statement at end of non-void function "Tcp_recv"
+..\myself\src\client_tcpudp.c:   }
+..\myself\src\client_tcpudp.c:   ^
+..\myself\src\client_tcpudp.c: ..\myself\src\client_tcpudp.c: 10 warnings, 0 errors
+linking...
+Program Size: Code=57300 RO-data=756 RW-data=500 ZI-data=50764  
+FromELF: creating hex file...
+".\obj\lwip_gnu.axf" - 0 Error(s), 10 Warning(s).
+Build target 'lwip2modbus'
+linking...
+Program Size: Code=57300 RO-data=756 RW-data=500 ZI-data=50764  
+FromELF: creating hex file...
+".\obj\lwip_gnu.axf" - 0 Error(s), 0 Warning(s).
+Load "C:\\Users\\mister-wang\\Desktop\\TCP2Modbus_v0.5.1\\Net2Modbus\\Lwip1.4.1+efls ByWang\\SDK\\obj\\lwip_gnu.AXF" 
+
+JLink info:
+-----------
+DLL: V4.86b, compiled Jun 27 2014 20:11:00
+Firmware: J-Link ARM V8 compiled Nov 25 2013 19:20:08
+Hardware: V8.00
+Feature(s) : RDI,FlashDL,FlashBP,JFlash,GDBFull 
+---
+* JLink Info: TotalIRLen = 9, IRPrint = 0x0011
+* JLink Info: Found Cortex-M3 r1p1, Little endian.
+* JLink Info: FPUnit: 6 code (BP) slots and 2 literal slots
+* JLink Info: TPIU fitted.
+* JLink Info: ETM fitted.
+
+Target info:
+------------
+Device: STM32F107VC
+* JLink Info: Device "STM32F107VC" selected (256 KB flash, 64 KB RAM).
+VTarget = 3.293V
+State of Pins: 
+TCK: 1, TDI: 0, TDO: 1, TMS: 0, TRES: 1, TRST: 1
+Hardware-Breakpoints: 6
+Software-Breakpoints: 8192
+Watchpoints:          4
+JTAG speed: 2000 kHz
+---
+Full Chip Erase Done.
+Programming Done.
+Verify OK.
+Application running ...
+Build target 'lwip2modbus'
+compiling client_tcpudp.c...
+..\myself\src\client_tcpudp.c(208): warning:  #175-D: subscript out of range
+..\myself\src\client_tcpudp.c:                                                          vesion[15+12+9]='\r';//子序号
+..\myself\src\client_tcpudp.c:                                                          ^
+..\myself\src\client_tcpudp.c(209): warning:  #175-D: subscript out of range
+..\myself\src\client_tcpudp.c:                                                          vesion[15+12+10]='\n';//子序号
+..\myself\src\client_tcpudp.c:                                                                ^
+..\myself\src\client_tcpudp.c(280): warning:  #1295-D: Deprecated declaration Getmeminf - give arg types
+..\myself\src\client_tcpudp.c:     extern char* Getmeminf();
+..\myself\src\client_tcpudp.c:                  ^
+..\myself\src\client_tcpudp.c(339): warning:  #177-D: variable "len" was declared but never referenced
+..\myself\src\client_tcpudp.c:                                                             uint16_t len;
+..\myself\src\client_tcpudp.c:                                                                      ^
+..\myself\src\client_tcpudp.c(358): warning:  #177-D: variable "len" was declared but never referenced
+..\myself\src\client_tcpudp.c:                                                             uint16_t len;
+..\myself\src\client_tcpudp.c:                                                                      ^
+..\myself\src\client_tcpudp.c(454): warning:  #175-D: subscript out of range
+..\myself\src\client_tcpudp.c:                                                    UID_STM32[16]=0x24;
+..\myself\src\client_tcpudp.c:                                                    ^
+..\myself\src\client_tcpudp.c(455): warning:  #175-D: subscript out of range
+..\myself\src\client_tcpudp.c:                                                    UID_STM32[17]=0x0d;  //efl
+..\myself\src\client_tcpudp.c:                                                             ^
+..\myself\src\client_tcpudp.c(456): warning:  #175-D: subscript out of range
+..\myself\src\client_tcpudp.c:                                                    UID_STM32[18]=0x0a;
+..\myself\src\client_tcpudp.c:                                                             ^
+..\myself\src\client_tcpudp.c(323): warning:  #177-D: variable "IDon" was declared but never referenced
+..\myself\src\client_tcpudp.c:                                          char IDon[7] ={0x67,0x74,0,0,1,0x0d,0x0a};
+..\myself\src\client_tcpudp.c:                                               ^
+..\myself\src\client_tcpudp.c(324): warning:  #177-D: variable "IDoff" was declared but never referenced
+..\myself\src\client_tcpudp.c:                                          char IDoff[7]={0x67,0x74,0,0,0,0x0d,0x0a};
+..\myself\src\client_tcpudp.c:                                               ^
+..\myself\src\client_tcpudp.c(325): warning:  #177-D: variable "IDs" was declared but never referenced
+..\myself\src\client_tcpudp.c:                                          char IDs[7]  ={0x67,0x74,0,0,2,0x0d,0x0a};
+..\myself\src\client_tcpudp.c:                                               ^
+..\myself\src\client_tcpudp.c(832): warning:  #940-D: missing return statement at end of non-void function "Tcp_recv"
+..\myself\src\client_tcpudp.c:   }
+..\myself\src\client_tcpudp.c:   ^
+..\myself\src\client_tcpudp.c(264): warning: C3488E: write to variable 'vesion' with offset out of bounds
+..\myself\src\client_tcpudp.c: }
+..\myself\src\client_tcpudp.c: ^
+..\myself\src\client_tcpudp.c(264): warning: C3488E: write to variable 'vesion' with offset out of bounds
+..\myself\src\client_tcpudp.c: }
+..\myself\src\client_tcpudp.c: ^
+..\myself\src\client_tcpudp.c: ..\myself\src\client_tcpudp.c: 14 warnings, 0 errors
+linking...
+Program Size: Code=57312 RO-data=756 RW-data=500 ZI-data=50764  
+FromELF: creating hex file...
+".\obj\lwip_gnu.axf" - 0 Error(s), 14 Warning(s).
+Build target 'lwip2modbus'
+compiling client_tcpudp.c...
+..\myself\src\client_tcpudp.c(280): warning:  #1295-D: Deprecated declaration Getmeminf - give arg types
+..\myself\src\client_tcpudp.c:     extern char* Getmeminf();
+..\myself\src\client_tcpudp.c:                  ^
+..\myself\src\client_tcpudp.c(339): warning:  #177-D: variable "len" was declared but never referenced
+..\myself\src\client_tcpudp.c:                                                             uint16_t len;
+..\myself\src\client_tcpudp.c:                                                                      ^
+..\myself\src\client_tcpudp.c(358): warning:  #177-D: variable "len" was declared but never referenced
+..\myself\src\client_tcpudp.c:                                                             uint16_t len;
+..\myself\src\client_tcpudp.c:                                                                      ^
+..\myself\src\client_tcpudp.c(454): warning:  #175-D: subscript out of range
+..\myself\src\client_tcpudp.c:                                                    UID_STM32[16]=0x24;
+..\myself\src\client_tcpudp.c:                                                    ^
+..\myself\src\client_tcpudp.c(455): warning:  #175-D: subscript out of range
+..\myself\src\client_tcpudp.c:                                                    UID_STM32[17]=0x0d;  //efl
+..\myself\src\client_tcpudp.c:                                                             ^
+..\myself\src\client_tcpudp.c(456): warning:  #175-D: subscript out of range
+..\myself\src\client_tcpudp.c:                                                    UID_STM32[18]=0x0a;
+..\myself\src\client_tcpudp.c:                                                             ^
+..\myself\src\client_tcpudp.c(323): warning:  #177-D: variable "IDon" was declared but never referenced
+..\myself\src\client_tcpudp.c:                                          char IDon[7] ={0x67,0x74,0,0,1,0x0d,0x0a};
+..\myself\src\client_tcpudp.c:                                               ^
+..\myself\src\client_tcpudp.c(324): warning:  #177-D: variable "IDoff" was declared but never referenced
+..\myself\src\client_tcpudp.c:                                          char IDoff[7]={0x67,0x74,0,0,0,0x0d,0x0a};
+..\myself\src\client_tcpudp.c:                                               ^
+..\myself\src\client_tcpudp.c(325): warning:  #177-D: variable "IDs" was declared but never referenced
+..\myself\src\client_tcpudp.c:                                          char IDs[7]  ={0x67,0x74,0,0,2,0x0d,0x0a};
+..\myself\src\client_tcpudp.c:                                               ^
+..\myself\src\client_tcpudp.c(832): warning:  #940-D: missing return statement at end of non-void function "Tcp_recv"
+..\myself\src\client_tcpudp.c:   }
+..\myself\src\client_tcpudp.c:   ^
+..\myself\src\client_tcpudp.c: ..\myself\src\client_tcpudp.c: 10 warnings, 0 errors
+linking...
+Program Size: Code=57320 RO-data=756 RW-data=500 ZI-data=50764  
+FromELF: creating hex file...
+".\obj\lwip_gnu.axf" - 0 Error(s), 10 Warning(s).
+Load "C:\\Users\\mister-wang\\Desktop\\TCP2Modbus_v0.5.1\\Net2Modbus\\Lwip1.4.1+efls ByWang\\SDK\\obj\\lwip_gnu.AXF" 
+
+JLink info:
+-----------
+DLL: V4.86b, compiled Jun 27 2014 20:11:00
+Firmware: J-Link ARM V8 compiled Nov 25 2013 19:20:08
+Hardware: V8.00
+Feature(s) : RDI,FlashDL,FlashBP,JFlash,GDBFull 
+---
+* JLink Info: TotalIRLen = 9, IRPrint = 0x0011
+* JLink Info: Found Cortex-M3 r1p1, Little endian.
+* JLink Info: FPUnit: 6 code (BP) slots and 2 literal slots
+* JLink Info: TPIU fitted.
+* JLink Info: ETM fitted.
+
+Target info:
+------------
+Device: STM32F107VC
+* JLink Info: Device "STM32F107VC" selected (256 KB flash, 64 KB RAM).
+VTarget = 3.293V
+State of Pins: 
+TCK: 1, TDI: 0, TDO: 1, TMS: 0, TRES: 1, TRST: 1
+Hardware-Breakpoints: 6
+Software-Breakpoints: 8192
+Watchpoints:          4
+JTAG speed: 2000 kHz
+---
+Full Chip Erase Done.
+Programming Done.
+Verify OK.
+Application running ...
+Build target 'lwip2modbus'
+compiling client_tcpudp.c...
+..\myself\src\client_tcpudp.c(280): warning:  #1295-D: Deprecated declaration Getmeminf - give arg types
+..\myself\src\client_tcpudp.c:     extern char* Getmeminf();
+..\myself\src\client_tcpudp.c:                  ^
+..\myself\src\client_tcpudp.c(339): warning:  #177-D: variable "len" was declared but never referenced
+..\myself\src\client_tcpudp.c:                                                             uint16_t len;
+..\myself\src\client_tcpudp.c:                                                                      ^
+..\myself\src\client_tcpudp.c(358): warning:  #177-D: variable "len" was declared but never referenced
+..\myself\src\client_tcpudp.c:                                                             uint16_t len;
+..\myself\src\client_tcpudp.c:                                                                      ^
+..\myself\src\client_tcpudp.c(454): warning:  #175-D: subscript out of range
+..\myself\src\client_tcpudp.c:                                                    UID_STM32[16]=0x24;
+..\myself\src\client_tcpudp.c:                                                    ^
+..\myself\src\client_tcpudp.c(455): warning:  #175-D: subscript out of range
+..\myself\src\client_tcpudp.c:                                                    UID_STM32[17]=0x0d;  //efl
+..\myself\src\client_tcpudp.c:                                                             ^
+..\myself\src\client_tcpudp.c(456): warning:  #175-D: subscript out of range
+..\myself\src\client_tcpudp.c:                                                    UID_STM32[18]=0x0a;
+..\myself\src\client_tcpudp.c:                                                             ^
+..\myself\src\client_tcpudp.c(323): warning:  #177-D: variable "IDon" was declared but never referenced
+..\myself\src\client_tcpudp.c:                                          char IDon[7] ={0x67,0x74,0,0,1,0x0d,0x0a};
+..\myself\src\client_tcpudp.c:                                               ^
+..\myself\src\client_tcpudp.c(324): warning:  #177-D: variable "IDoff" was declared but never referenced
+..\myself\src\client_tcpudp.c:                                          char IDoff[7]={0x67,0x74,0,0,0,0x0d,0x0a};
+..\myself\src\client_tcpudp.c:                                               ^
+..\myself\src\client_tcpudp.c(325): warning:  #177-D: variable "IDs" was declared but never referenced
+..\myself\src\client_tcpudp.c:                                          char IDs[7]  ={0x67,0x74,0,0,2,0x0d,0x0a};
+..\myself\src\client_tcpudp.c:                                               ^
+..\myself\src\client_tcpudp.c(832): warning:  #940-D: missing return statement at end of non-void function "Tcp_recv"
+..\myself\src\client_tcpudp.c:   }
+..\myself\src\client_tcpudp.c:   ^
+..\myself\src\client_tcpudp.c: ..\myself\src\client_tcpudp.c: 10 warnings, 0 errors
+linking...
+Program Size: Code=57324 RO-data=756 RW-data=500 ZI-data=50764  
+FromELF: creating hex file...
+".\obj\lwip_gnu.axf" - 0 Error(s), 10 Warning(s).
+Load "C:\\Users\\mister-wang\\Desktop\\TCP2Modbus_v0.5.1\\Net2Modbus\\Lwip1.4.1+efls ByWang\\SDK\\obj\\lwip_gnu.AXF" 
+
+JLink info:
+-----------
+DLL: V4.86b, compiled Jun 27 2014 20:11:00
+Firmware: J-Link ARM V8 compiled Nov 25 2013 19:20:08
+Hardware: V8.00
+Feature(s) : RDI,FlashDL,FlashBP,JFlash,GDBFull 
+---
+* JLink Info: TotalIRLen = 9, IRPrint = 0x0011
+* JLink Info: Found Cortex-M3 r1p1, Little endian.
+* JLink Info: FPUnit: 6 code (BP) slots and 2 literal slots
+* JLink Info: TPIU fitted.
+* JLink Info: ETM fitted.
+
+Target info:
+------------
+Device: STM32F107VC
+* JLink Info: Device "STM32F107VC" selected (256 KB flash, 64 KB RAM).
+VTarget = 3.293V
+State of Pins: 
+TCK: 1, TDI: 0, TDO: 1, TMS: 0, TRES: 1, TRST: 1
+Hardware-Breakpoints: 6
+Software-Breakpoints: 8192
+Watchpoints:          4
+JTAG speed: 2000 kHz
+---
+Full Chip Erase Done.
+Programming Done.
+Verify OK.
+Application running ...
+Build target 'lwip2modbus'
+compiling client_tcpudp.c...
+..\myself\src\client_tcpudp.c(280): warning:  #1295-D: Deprecated declaration Getmeminf - give arg types
+..\myself\src\client_tcpudp.c:     extern char* Getmeminf();
+..\myself\src\client_tcpudp.c:                  ^
+..\myself\src\client_tcpudp.c(339): warning:  #177-D: variable "len" was declared but never referenced
+..\myself\src\client_tcpudp.c:                                                             uint16_t len;
+..\myself\src\client_tcpudp.c:                                                                      ^
+..\myself\src\client_tcpudp.c(358): warning:  #177-D: variable "len" was declared but never referenced
+..\myself\src\client_tcpudp.c:                                                             uint16_t len;
+..\myself\src\client_tcpudp.c:                                                                      ^
+..\myself\src\client_tcpudp.c(454): warning:  #175-D: subscript out of range
+..\myself\src\client_tcpudp.c:                                                    UID_STM32[16]=0x24;
+..\myself\src\client_tcpudp.c:                                                    ^
+..\myself\src\client_tcpudp.c(455): warning:  #175-D: subscript out of range
+..\myself\src\client_tcpudp.c:                                                    UID_STM32[17]=0x0d;  //efl
+..\myself\src\client_tcpudp.c:                                                             ^
+..\myself\src\client_tcpudp.c(456): warning:  #175-D: subscript out of range
+..\myself\src\client_tcpudp.c:                                                    UID_STM32[18]=0x0a;
+..\myself\src\client_tcpudp.c:                                                             ^
+..\myself\src\client_tcpudp.c(323): warning:  #177-D: variable "IDon" was declared but never referenced
+..\myself\src\client_tcpudp.c:                                          char IDon[7] ={0x67,0x74,0,0,1,0x0d,0x0a};
+..\myself\src\client_tcpudp.c:                                               ^
+..\myself\src\client_tcpudp.c(324): warning:  #177-D: variable "IDoff" was declared but never referenced
+..\myself\src\client_tcpudp.c:                                          char IDoff[7]={0x67,0x74,0,0,0,0x0d,0x0a};
+..\myself\src\client_tcpudp.c:                                               ^
+..\myself\src\client_tcpudp.c(325): warning:  #177-D: variable "IDs" was declared but never referenced
+..\myself\src\client_tcpudp.c:                                          char IDs[7]  ={0x67,0x74,0,0,2,0x0d,0x0a};
+..\myself\src\client_tcpudp.c:                                               ^
+..\myself\src\client_tcpudp.c(832): warning:  #940-D: missing return statement at end of non-void function "Tcp_recv"
+..\myself\src\client_tcpudp.c:   }
+..\myself\src\client_tcpudp.c:   ^
+..\myself\src\client_tcpudp.c: ..\myself\src\client_tcpudp.c: 10 warnings, 0 errors
+linking...
+Program Size: Code=57324 RO-data=756 RW-data=500 ZI-data=50764  
+FromELF: creating hex file...
+".\obj\lwip_gnu.axf" - 0 Error(s), 10 Warning(s).
+Load "C:\\Users\\mister-wang\\Desktop\\TCP2Modbus_v0.5.1\\Net2Modbus\\Lwip1.4.1+efls ByWang\\SDK\\obj\\lwip_gnu.AXF" 
+
+JLink info:
+-----------
+DLL: V4.86b, compiled Jun 27 2014 20:11:00
+Firmware: J-Link ARM V8 compiled Nov 25 2013 19:20:08
+Hardware: V8.00
+Feature(s) : RDI,FlashDL,FlashBP,JFlash,GDBFull 
+---
+* JLink Info: TotalIRLen = 9, IRPrint = 0x0011
+* JLink Info: Found Cortex-M3 r1p1, Little endian.
+* JLink Info: FPUnit: 6 code (BP) slots and 2 literal slots
+* JLink Info: TPIU fitted.
+* JLink Info: ETM fitted.
+
+Target info:
+------------
+Device: STM32F107VC
+* JLink Info: Device "STM32F107VC" selected (256 KB flash, 64 KB RAM).
+VTarget = 3.293V
+State of Pins: 
+TCK: 1, TDI: 0, TDO: 1, TMS: 0, TRES: 1, TRST: 1
+Hardware-Breakpoints: 6
+Software-Breakpoints: 8192
+Watchpoints:          4
+JTAG speed: 2000 kHz
+---
+Full Chip Erase Done.
+Programming Done.
+Verify OK.
+Application running ...
+Build target 'lwip2modbus'
+compiling client_tcpudp.c...
+..\myself\src\client_tcpudp.c(280): warning:  #1295-D: Deprecated declaration Getmeminf - give arg types
+..\myself\src\client_tcpudp.c:     extern char* Getmeminf();
+..\myself\src\client_tcpudp.c:                  ^
+..\myself\src\client_tcpudp.c(339): warning:  #177-D: variable "len" was declared but never referenced
+..\myself\src\client_tcpudp.c:                                                             uint16_t len;
+..\myself\src\client_tcpudp.c:                                                                      ^
+..\myself\src\client_tcpudp.c(358): warning:  #177-D: variable "len" was declared but never referenced
+..\myself\src\client_tcpudp.c:                                                             uint16_t len;
+..\myself\src\client_tcpudp.c:                                                                      ^
+..\myself\src\client_tcpudp.c(454): warning:  #175-D: subscript out of range
+..\myself\src\client_tcpudp.c:                                                    UID_STM32[16]=0x24;
+..\myself\src\client_tcpudp.c:                                                    ^
+..\myself\src\client_tcpudp.c(455): warning:  #175-D: subscript out of range
+..\myself\src\client_tcpudp.c:                                                    UID_STM32[17]=0x0d;  //efl
+..\myself\src\client_tcpudp.c:                                                             ^
+..\myself\src\client_tcpudp.c(456): warning:  #175-D: subscript out of range
+..\myself\src\client_tcpudp.c:                                                    UID_STM32[18]=0x0a;
+..\myself\src\client_tcpudp.c:                                                             ^
+..\myself\src\client_tcpudp.c(323): warning:  #177-D: variable "IDon" was declared but never referenced
+..\myself\src\client_tcpudp.c:                                          char IDon[7] ={0x67,0x74,0,0,1,0x0d,0x0a};
+..\myself\src\client_tcpudp.c:                                               ^
+..\myself\src\client_tcpudp.c(324): warning:  #177-D: variable "IDoff" was declared but never referenced
+..\myself\src\client_tcpudp.c:                                          char IDoff[7]={0x67,0x74,0,0,0,0x0d,0x0a};
+..\myself\src\client_tcpudp.c:                                               ^
+..\myself\src\client_tcpudp.c(325): warning:  #177-D: variable "IDs" was declared but never referenced
+..\myself\src\client_tcpudp.c:                                          char IDs[7]  ={0x67,0x74,0,0,2,0x0d,0x0a};
+..\myself\src\client_tcpudp.c:                                               ^
+..\myself\src\client_tcpudp.c(832): warning:  #940-D: missing return statement at end of non-void function "Tcp_recv"
+..\myself\src\client_tcpudp.c:   }
+..\myself\src\client_tcpudp.c:   ^
+..\myself\src\client_tcpudp.c: ..\myself\src\client_tcpudp.c: 10 warnings, 0 errors
+linking...
+Program Size: Code=57312 RO-data=756 RW-data=500 ZI-data=50764  
+FromELF: creating hex file...
+".\obj\lwip_gnu.axf" - 0 Error(s), 10 Warning(s).
+Load "C:\\Users\\mister-wang\\Desktop\\TCP2Modbus_v0.5.1\\Net2Modbus\\Lwip1.4.1+efls ByWang\\SDK\\obj\\lwip_gnu.AXF" 
+
+JLink info:
+-----------
+DLL: V4.86b, compiled Jun 27 2014 20:11:00
+Firmware: J-Link ARM V8 compiled Nov 25 2013 19:20:08
+Hardware: V8.00
+Feature(s) : RDI,FlashDL,FlashBP,JFlash,GDBFull 
+---
+* JLink Info: TotalIRLen = 9, IRPrint = 0x0011
+* JLink Info: Found Cortex-M3 r1p1, Little endian.
+* JLink Info: FPUnit: 6 code (BP) slots and 2 literal slots
+* JLink Info: TPIU fitted.
+* JLink Info: ETM fitted.
+
+Target info:
+------------
+Device: STM32F107VC
+* JLink Info: Device "STM32F107VC" selected (256 KB flash, 64 KB RAM).
+VTarget = 3.293V
+State of Pins: 
+TCK: 1, TDI: 0, TDO: 1, TMS: 0, TRES: 1, TRST: 1
+Hardware-Breakpoints: 6
+Software-Breakpoints: 8192
+Watchpoints:          4
+JTAG speed: 2000 kHz
+---
+Full Chip Erase Done.
+Programming Done.
+Verify OK.
+Application running ...
+Build target 'lwip2modbus'
+compiling client_tcpudp.c...
+..\myself\src\client_tcpudp.c(280): warning:  #1295-D: Deprecated declaration Getmeminf - give arg types
+..\myself\src\client_tcpudp.c:     extern char* Getmeminf();
+..\myself\src\client_tcpudp.c:                  ^
+..\myself\src\client_tcpudp.c(339): warning:  #177-D: variable "len" was declared but never referenced
+..\myself\src\client_tcpudp.c:                                                             uint16_t len;
+..\myself\src\client_tcpudp.c:                                                                      ^
+..\myself\src\client_tcpudp.c(358): warning:  #177-D: variable "len" was declared but never referenced
+..\myself\src\client_tcpudp.c:                                                             uint16_t len;
+..\myself\src\client_tcpudp.c:                                                                      ^
+..\myself\src\client_tcpudp.c(454): warning:  #175-D: subscript out of range
+..\myself\src\client_tcpudp.c:                                                    UID_STM32[16]=0x24;
+..\myself\src\client_tcpudp.c:                                                    ^
+..\myself\src\client_tcpudp.c(455): warning:  #175-D: subscript out of range
+..\myself\src\client_tcpudp.c:                                                    UID_STM32[17]=0x0d;  //efl
+..\myself\src\client_tcpudp.c:                                                             ^
+..\myself\src\client_tcpudp.c(456): warning:  #175-D: subscript out of range
+..\myself\src\client_tcpudp.c:                                                    UID_STM32[18]=0x0a;
+..\myself\src\client_tcpudp.c:                                                             ^
+..\myself\src\client_tcpudp.c(323): warning:  #177-D: variable "IDon" was declared but never referenced
+..\myself\src\client_tcpudp.c:                                          char IDon[7] ={0x67,0x74,0,0,1,0x0d,0x0a};
+..\myself\src\client_tcpudp.c:                                               ^
+..\myself\src\client_tcpudp.c(324): warning:  #177-D: variable "IDoff" was declared but never referenced
+..\myself\src\client_tcpudp.c:                                          char IDoff[7]={0x67,0x74,0,0,0,0x0d,0x0a};
+..\myself\src\client_tcpudp.c:                                               ^
+..\myself\src\client_tcpudp.c(325): warning:  #177-D: variable "IDs" was declared but never referenced
+..\myself\src\client_tcpudp.c:                                          char IDs[7]  ={0x67,0x74,0,0,2,0x0d,0x0a};
+..\myself\src\client_tcpudp.c:                                               ^
+..\myself\src\client_tcpudp.c(832): warning:  #940-D: missing return statement at end of non-void function "Tcp_recv"
+..\myself\src\client_tcpudp.c:   }
+..\myself\src\client_tcpudp.c:   ^
+..\myself\src\client_tcpudp.c: ..\myself\src\client_tcpudp.c: 10 warnings, 0 errors
+linking...
+Program Size: Code=57312 RO-data=756 RW-data=500 ZI-data=50764  
+FromELF: creating hex file...
+".\obj\lwip_gnu.axf" - 0 Error(s), 10 Warning(s).
+Load "C:\\Users\\mister-wang\\Desktop\\TCP2Modbus_v0.5.1\\Net2Modbus\\Lwip1.4.1+efls ByWang\\SDK\\obj\\lwip_gnu.AXF" 
+
+JLink info:
+-----------
+DLL: V4.86b, compiled Jun 27 2014 20:11:00
+Firmware: J-Link ARM V8 compiled Nov 25 2013 19:20:08
+Hardware: V8.00
+Feature(s) : RDI,FlashDL,FlashBP,JFlash,GDBFull 
+---
+* JLink Info: TotalIRLen = 9, IRPrint = 0x0011
+* JLink Info: Found Cortex-M3 r1p1, Little endian.
+* JLink Info: FPUnit: 6 code (BP) slots and 2 literal slots
+* JLink Info: TPIU fitted.
+* JLink Info: ETM fitted.
+
+Target info:
+------------
+Device: STM32F107VC
+* JLink Info: Device "STM32F107VC" selected (256 KB flash, 64 KB RAM).
+VTarget = 3.293V
+State of Pins: 
+TCK: 1, TDI: 0, TDO: 1, TMS: 0, TRES: 1, TRST: 1
+Hardware-Breakpoints: 6
+Software-Breakpoints: 8192
+Watchpoints:          4
+JTAG speed: 2000 kHz
+---
+Full Chip Erase Done.
+Programming Done.
+Verify OK.
+Application running ...
+Build target 'lwip2modbus'
+compiling client_tcpudp.c...
+..\myself\src\client_tcpudp.c(281): warning:  #1295-D: Deprecated declaration Getmeminf - give arg types
+..\myself\src\client_tcpudp.c:     extern char* Getmeminf();
+..\myself\src\client_tcpudp.c:                  ^
+..\myself\src\client_tcpudp.c(340): warning:  #177-D: variable "len" was declared but never referenced
+..\myself\src\client_tcpudp.c:                                                             uint16_t len;
+..\myself\src\client_tcpudp.c:                                                                      ^
+..\myself\src\client_tcpudp.c(359): warning:  #177-D: variable "len" was declared but never referenced
+..\myself\src\client_tcpudp.c:                                                             uint16_t len;
+..\myself\src\client_tcpudp.c:                                                                      ^
+..\myself\src\client_tcpudp.c(455): warning:  #175-D: subscript out of range
+..\myself\src\client_tcpudp.c:                                                    UID_STM32[16]=0x24;
+..\myself\src\client_tcpudp.c:                                                    ^
+..\myself\src\client_tcpudp.c(456): warning:  #175-D: subscript out of range
+..\myself\src\client_tcpudp.c:                                                    UID_STM32[17]=0x0d;  //efl
+..\myself\src\client_tcpudp.c:                                                             ^
+..\myself\src\client_tcpudp.c(457): warning:  #175-D: subscript out of range
+..\myself\src\client_tcpudp.c:                                                    UID_STM32[18]=0x0a;
+..\myself\src\client_tcpudp.c:                                                             ^
+..\myself\src\client_tcpudp.c(324): warning:  #177-D: variable "IDon" was declared but never referenced
+..\myself\src\client_tcpudp.c:                                          char IDon[7] ={0x67,0x74,0,0,1,0x0d,0x0a};
+..\myself\src\client_tcpudp.c:                                               ^
+..\myself\src\client_tcpudp.c(325): warning:  #177-D: variable "IDoff" was declared but never referenced
+..\myself\src\client_tcpudp.c:                                          char IDoff[7]={0x67,0x74,0,0,0,0x0d,0x0a};
+..\myself\src\client_tcpudp.c:                                               ^
+..\myself\src\client_tcpudp.c(326): warning:  #177-D: variable "IDs" was declared but never referenced
+..\myself\src\client_tcpudp.c:                                          char IDs[7]  ={0x67,0x74,0,0,2,0x0d,0x0a};
+..\myself\src\client_tcpudp.c:                                               ^
+..\myself\src\client_tcpudp.c(833): warning:  #940-D: missing return statement at end of non-void function "Tcp_recv"
+..\myself\src\client_tcpudp.c:   }
+..\myself\src\client_tcpudp.c:   ^
+..\myself\src\client_tcpudp.c: ..\myself\src\client_tcpudp.c: 10 warnings, 0 errors
+linking...
+Program Size: Code=57316 RO-data=756 RW-data=500 ZI-data=50764  
+FromELF: creating hex file...
+".\obj\lwip_gnu.axf" - 0 Error(s), 10 Warning(s).
+Load "C:\\Users\\mister-wang\\Desktop\\TCP2Modbus_v0.5.1\\Net2Modbus\\Lwip1.4.1+efls ByWang\\SDK\\obj\\lwip_gnu.AXF" 
+
+JLink info:
+-----------
+DLL: V4.86b, compiled Jun 27 2014 20:11:00
+Firmware: J-Link ARM V8 compiled Nov 25 2013 19:20:08
+Hardware: V8.00
+Feature(s) : RDI,FlashDL,FlashBP,JFlash,GDBFull 
+---
+* JLink Info: TotalIRLen = 9, IRPrint = 0x0011
+* JLink Info: Found Cortex-M3 r1p1, Little endian.
+* JLink Info: FPUnit: 6 code (BP) slots and 2 literal slots
+* JLink Info: TPIU fitted.
+* JLink Info: ETM fitted.
+
+Target info:
+------------
+Device: STM32F107VC
+* JLink Info: Device "STM32F107VC" selected (256 KB flash, 64 KB RAM).
+VTarget = 3.293V
+State of Pins: 
+TCK: 1, TDI: 0, TDO: 1, TMS: 0, TRES: 1, TRST: 1
+Hardware-Breakpoints: 6
+Software-Breakpoints: 8192
+Watchpoints:          4
+JTAG speed: 2000 kHz
+---
+Full Chip Erase Done.
+Programming Done.
+Verify OK.
+Application running ...
+Build target 'lwip2modbus'
+linking...
+Program Size: Code=57316 RO-data=756 RW-data=500 ZI-data=50764  
+FromELF: creating hex file...
+".\obj\lwip_gnu.axf" - 0 Error(s), 0 Warning(s).
+Build target 'lwip2modbus'
+compiling netconf.c...
+..\myself\src\netconf.c(187): warning:  #223-D: function "tcp_tmr" declared implicitly
+..\myself\src\netconf.c:       tcp_tmr();
+..\myself\src\netconf.c:       ^
+..\myself\src\netconf.c(52): warning:  #177-D: variable "IPaddress" was declared but never referenced
+..\myself\src\netconf.c:   static uint32_t IPaddress = 0;
+..\myself\src\netconf.c:                   ^
+..\myself\src\netconf.c: ..\myself\src\netconf.c: 2 warnings, 0 errors
+compiling stm32f10x_it.c...
+..\myself\src\stm32f10x_it.c(155): warning:  #1295-D: Deprecated declaration Read_Eth_Packet - give arg types
+..\myself\src\stm32f10x_it.c:     extern void Read_Eth_Packet(); //读取数据包大BUFF中
+..\myself\src\stm32f10x_it.c:                 ^
+..\myself\src\stm32f10x_it.c: ..\myself\src\stm32f10x_it.c: 1 warning, 0 errors
+compiling stm32f107.c...
+..\myself\src\stm32f107.c(69): warning:  #223-D: function "eMBMasterInit" declared implicitly
+..\myself\src\stm32f107.c:               eMBMasterInit( MB_RTU, 2, 9600,MB_PAR_NONE );
+..\myself\src\stm32f107.c:               ^
+..\myself\src\stm32f107.c(71): warning:  #223-D: function "eMBMasterEnable" declared implicitly
+..\myself\src\stm32f107.c:            eMBMasterEnable();
+..\myself\src\stm32f107.c:            ^
+..\myself\src\stm32f107.c: ..\myself\src\stm32f107.c: 2 warnings, 0 errors
+compiling client_tcpudp.c...
+..\myself\src\client_tcpudp.c(281): warning:  #1295-D: Deprecated declaration Getmeminf - give arg types
+..\myself\src\client_tcpudp.c:     extern char* Getmeminf();
+..\myself\src\client_tcpudp.c:                  ^
+..\myself\src\client_tcpudp.c(340): warning:  #177-D: variable "len" was declared but never referenced
+..\myself\src\client_tcpudp.c:                                                             uint16_t len;
+..\myself\src\client_tcpudp.c:                                                                      ^
+..\myself\src\client_tcpudp.c(359): warning:  #177-D: variable "len" was declared but never referenced
+..\myself\src\client_tcpudp.c:                                                             uint16_t len;
+..\myself\src\client_tcpudp.c:                                                                      ^
+..\myself\src\client_tcpudp.c(455): warning:  #175-D: subscript out of range
+..\myself\src\client_tcpudp.c:                                                    UID_STM32[16]=0x24;
+..\myself\src\client_tcpudp.c:                                                    ^
+..\myself\src\client_tcpudp.c(456): warning:  #175-D: subscript out of range
+..\myself\src\client_tcpudp.c:                                                    UID_STM32[17]=0x0d;  //efl
+..\myself\src\client_tcpudp.c:                                                             ^
+..\myself\src\client_tcpudp.c(457): warning:  #175-D: subscript out of range
+..\myself\src\client_tcpudp.c:                                                    UID_STM32[18]=0x0a;
+..\myself\src\client_tcpudp.c:                                                             ^
+..\myself\src\client_tcpudp.c(324): warning:  #177-D: variable "IDon" was declared but never referenced
+..\myself\src\client_tcpudp.c:                                          char IDon[7] ={0x67,0x74,0,0,1,0x0d,0x0a};
+..\myself\src\client_tcpudp.c:                                               ^
+..\myself\src\client_tcpudp.c(325): warning:  #177-D: variable "IDoff" was declared but never referenced
+..\myself\src\client_tcpudp.c:                                          char IDoff[7]={0x67,0x74,0,0,0,0x0d,0x0a};
+..\myself\src\client_tcpudp.c:                                               ^
+..\myself\src\client_tcpudp.c(326): warning:  #177-D: variable "IDs" was declared but never referenced
+..\myself\src\client_tcpudp.c:                                          char IDs[7]  ={0x67,0x74,0,0,2,0x0d,0x0a};
+..\myself\src\client_tcpudp.c:                                               ^
+..\myself\src\client_tcpudp.c(833): warning:  #940-D: missing return statement at end of non-void function "Tcp_recv"
+..\myself\src\client_tcpudp.c:   }
+..\myself\src\client_tcpudp.c:   ^
+..\myself\src\client_tcpudp.c: ..\myself\src\client_tcpudp.c: 10 warnings, 0 errors
+compiling DS18B20SROM.c...
+..\myself\src\DS18B20SROM.c(533): warning:  #223-D: function "FS_Writehtml" declared implicitly
+..\myself\src\DS18B20SROM.c:    FS_Writehtml((char*)temp,33);
+..\myself\src\DS18B20SROM.c:    ^
+..\myself\src\DS18B20SROM.c: ..\myself\src\DS18B20SROM.c: 1 warning, 0 errors
+compiling main.c...
+..\myself\src\main.c(105): warning:  #14-D: extra text after expected end of preprocessing directive
+..\myself\src\main.c:                     #ifdef USED_FILESYSTEM && USED_HTTP
+..\myself\src\main.c:                                            ^
+..\myself\src\main.c(121): warning:  #223-D: function "TcpTestThread" declared implicitly
+..\myself\src\main.c:                             TcpTestThread(LocalTime);
+..\myself\src\main.c:                             ^
+..\myself\src\main.c(129): warning:  #223-D: function "eMBMasterPoll" declared implicitly
+..\myself\src\main.c:                            (void)eMBMasterPoll();//空闲检查 modbus RTU 数据
+..\myself\src\main.c:                                  ^
+..\myself\src\main.c: ..\myself\src\main.c: 3 warnings, 0 errors
+compiling ethernetif.c...
+..\GNU源码\lwip-1.4.1\archport\port\ethernetif.c(295): warning:  #550-D: variable "fd" was set but never used
+..\GNU源码\lwip-1.4.1\archport\port\ethernetif.c:         FrameTypeDef fd;
+..\GNU源码\lwip-1.4.1\archport\port\ethernetif.c:                      ^
+..\GNU源码\lwip-1.4.1\archport\port\ethernetif.c(433): warning:  #236-D: controlling expression is constant
+..\GNU源码\lwip-1.4.1\archport\port\ethernetif.c:     LWIP_ASSERT("netif != NULL", (netif != NULL));
+..\GNU源码\lwip-1.4.1\archport\port\ethernetif.c:     ^
+..\GNU源码\lwip-1.4.1\archport\port\ethernetif.c(547): warning:  #223-D: function "Ethernet_Configuration" declared implicitly
+..\GNU源码\lwip-1.4.1\archport\port\ethernetif.c:        Ethernet_Configuration();
+..\GNU源码\lwip-1.4.1\archport\port\ethernetif.c:        ^
+..\GNU源码\lwip-1.4.1\archport\port\ethernetif.c: ..\GNU源码\lwip-1.4.1\archport\port\ethernetif.c: 3 warnings, 0 errors
+compiling sd_stm32.c...
+compiling smtp.c...
+..\smtp\smtp.c(496): warning:  #520-D: initialization with "{...}" expected for aggregate object
+..\smtp\smtp.c:   unsigned int  smtp_Tcp_count[10]=0;
+..\smtp\smtp.c:                                    ^
+..\smtp\smtp.c(505): warning:  #236-D: controlling expression is constant
+..\smtp\smtp.c:     LWIP_ASSERT("no smtp_session supplied", s != NULL);
+..\smtp\smtp.c:     ^
+..\smtp\smtp.c(690): warning:  #236-D: controlling expression is constant
+..\smtp\smtp.c:     LWIP_ASSERT("string is too long", len <= 0xffff);
+..\smtp\smtp.c:     ^
+..\smtp\smtp.c(694): warning:  #236-D: controlling expression is constant
+..\smtp\smtp.c:     LWIP_ASSERT("string is too long", len <= 0xffff);
+..\smtp\smtp.c:     ^
+..\smtp\smtp.c(698): warning:  #236-D: controlling expression is constant
+..\smtp\smtp.c:     LWIP_ASSERT("string is too long", len <= 0xffff);
+..\smtp\smtp.c:     ^
+..\smtp\smtp.c(702): warning:  #236-D: controlling expression is constant
+..\smtp\smtp.c:     LWIP_ASSERT("string is too long", len <= 0xffff);
+..\smtp\smtp.c:     ^
+..\smtp\smtp.c(733): warning:  #236-D: controlling expression is constant
+..\smtp\smtp.c:     LWIP_ASSERT("smtp_send_mail_int: no argument given", arg != NULL);
+..\smtp\smtp.c:     ^
+..\smtp\smtp.c(956): warning:  #236-D: controlling expression is constant
+..\smtp\smtp.c:     LWIP_ASSERT("target_len is too short", target_len >= len);
+..\smtp\smtp.c:     ^
+..\smtp\smtp.c(1056): warning:  #236-D: controlling expression is constant
+..\smtp\smtp.c:     LWIP_ASSERT("ipaddr_ntoa returned NULL", ipa != NULL);
+..\smtp\smtp.c:     ^
+..\smtp\smtp.c(1058): warning:  #236-D: controlling expression is constant
+..\smtp\smtp.c:     LWIP_ASSERT("string too long", ipa_len <= 0xffff);
+..\smtp\smtp.c:     ^
+..\smtp\smtp.c(1061): warning:  #236-D: controlling expression is constant
+..\smtp\smtp.c:     LWIP_ASSERT("tx_buf overflow detected", *tx_buf_len <= SMTP_TX_BUF_LEN);
+..\smtp\smtp.c:     ^
+..\smtp\smtp.c(1088): warning:  #177-D: variable "sep" was declared but never referenced
+..\smtp\smtp.c:           char *sep = s->tx_buf + SMTP_KEYWORD_AUTH_LEN;
+..\smtp\smtp.c:                 ^
+..\smtp\smtp.c(1136): warning:  #236-D: controlling expression is constant
+..\smtp\smtp.c:     LWIP_ASSERT("string too long", base64_len <= 0xffff);
+..\smtp\smtp.c:     ^
+..\smtp\smtp.c(1137): warning:  #236-D: controlling expression is constant
+..\smtp\smtp.c:     LWIP_ASSERT("tx_buf overflow detected", base64_len + SMTP_CRLF_LEN <= SMTP_TX_BUF_LEN);
+..\smtp\smtp.c:     ^
+..\smtp\smtp.c(1152): warning:  #236-D: controlling expression is constant
+..\smtp\smtp.c:     LWIP_ASSERT("string too long", base64_len <= 0xffff);
+..\smtp\smtp.c:     ^
+..\smtp\smtp.c(1153): warning:  #236-D: controlling expression is constant
+..\smtp\smtp.c:     LWIP_ASSERT("tx_buf overflow detected", base64_len + SMTP_CRLF_LEN <= SMTP_TX_BUF_LEN);
+..\smtp\smtp.c:     ^
+..\smtp\smtp.c(1168): warning:  #236-D: controlling expression is constant
+..\smtp\smtp.c:     LWIP_ASSERT("tx_buf overflow detected", *tx_buf_len <= SMTP_TX_BUF_LEN);
+..\smtp\smtp.c:     ^
+..\smtp\smtp.c(1185): warning:  #236-D: controlling expression is constant
+..\smtp\smtp.c:     LWIP_ASSERT("tx_buf overflow detected", *tx_buf_len <= SMTP_TX_BUF_LEN);
+..\smtp\smtp.c:     ^
+..\smtp\smtp.c(1204): warning:  #236-D: controlling expression is constant
+..\smtp\smtp.c:     LWIP_ASSERT("tx_buf overflow detected", *tx_buf_len <= SMTP_TX_BUF_LEN);
+..\smtp\smtp.c:     ^
+..\smtp\smtp.c(1231): warning:  #236-D: controlling expression is constant
+..\smtp\smtp.c:     LWIP_ASSERT("tx_buf overflow detected", *tx_buf_len <= SMTP_TX_BUF_LEN);
+..\smtp\smtp.c:     ^
+..\smtp\smtp.c: ..\smtp\smtp.c: 20 warnings, 0 errors
+compiling snmp_app.c...
+..\smtp\snmp_app.c(42): warning:  #1-D: last line of file ends without a newline
+..\smtp\snmp_app.c:   #endif                                                                               
+..\smtp\snmp_app.c:                                                                                        ^
+..\smtp\snmp_app.c: ..\smtp\snmp_app.c: 1 warning, 0 errors
+compiling modbus_main.c...
+..\modbus\User\modbus_main.c(71): warning:  #513-D: a value of type "uint8_t *" cannot be assigned to an entity of type "char *"
+..\modbus\User\modbus_main.c:                                                                                    sptr =   &TCP2RS485CMDLIST[0]; //取BUFF地址
+..\modbus\User\modbus_main.c:                                                                                         ^
+..\modbus\User\modbus_main.c(249): warning:  #223-D: function "eMBMasterInit" declared implicitly
+..\modbus\User\modbus_main.c:       eStatus = eMBMasterInit( MB_RTU, 2, 9600,MB_PAR_NONE );
+..\modbus\User\modbus_main.c:                 ^
+..\modbus\User\modbus_main.c(249): warning:  #188-D: enumerated type mixed with another type
+..\modbus\User\modbus_main.c:       eStatus = eMBMasterInit( MB_RTU, 2, 9600,MB_PAR_NONE );
+..\modbus\User\modbus_main.c:               ^
+..\modbus\User\modbus_main.c(254): warning:  #223-D: function "eMBMasterEnable" declared implicitly
+..\modbus\User\modbus_main.c:       eStatus = eMBMasterEnable();
+..\modbus\User\modbus_main.c:                 ^
+..\modbus\User\modbus_main.c(254): warning:  #188-D: enumerated type mixed with another type
+..\modbus\User\modbus_main.c:       eStatus = eMBMasterEnable();
+..\modbus\User\modbus_main.c:               ^
+..\modbus\User\modbus_main.c(280): warning:  #223-D: function "eMBMasterPoll" declared implicitly
+..\modbus\User\modbus_main.c:                           (void)eMBMasterPoll();
+..\modbus\User\modbus_main.c:                                 ^
+..\modbus\User\modbus_main.c(234): warning:  #550-D: variable "eStatus" was set but never used
+..\modbus\User\modbus_main.c:       eMBErrorCode    eStatus;
+..\modbus\User\modbus_main.c:                       ^
+..\modbus\User\modbus_main.c(300): warning:  #223-D: function "vMBMasterGetPDUSndBuf" declared implicitly
+..\modbus\User\modbus_main.c:                     vMBMasterGetPDUSndBuf( &p );   //The 1st  we get the pdu buffer point
+..\modbus\User\modbus_main.c:                     ^
+..\modbus\User\modbus_main.c(309): warning:  #223-D: function "eMBMasterRTUSend" declared implicitly
+..\modbus\User\modbus_main.c:                       eMBMasterRTUSend( Slave_addr, p, len );     //      start up snet status machin and excution sent data on RTU 
+..\modbus\User\modbus_main.c:                       ^
+..\modbus\User\modbus_main.c(16): warning:  #177-D: variable "t32" was declared but never referenced
+..\modbus\User\modbus_main.c:             static  uint32_t t32=0;
+..\modbus\User\modbus_main.c:                              ^
+..\modbus\User\modbus_main.c: ..\modbus\User\modbus_main.c: 10 warnings, 0 errors
+compiling flash_if.c...
+linking...
+Program Size: Code=57316 RO-data=756 RW-data=500 ZI-data=50764  
+FromELF: creating hex file...
+".\obj\lwip_gnu.axf" - 0 Error(s), 53 Warning(s).
+Load "C:\\Users\\mister-wang\\Desktop\\TCP2Modbus_v0.5.1\\Net2Modbus\\Lwip1.4.1+efls ByWang\\SDK\\obj\\lwip_gnu.AXF" 
+
+JLink info:
+-----------
+DLL: V4.86b, compiled Jun 27 2014 20:11:00
+Firmware: J-Link ARM V8 compiled Nov 25 2013 19:20:08
+Hardware: V8.00
+Feature(s) : RDI,FlashDL,FlashBP,JFlash,GDBFull 
+---
+* JLink Info: TotalIRLen = 9, IRPrint = 0x0011
+* JLink Info: Found Cortex-M3 r1p1, Little endian.
+* JLink Info: FPUnit: 6 code (BP) slots and 2 literal slots
+* JLink Info: TPIU fitted.
+* JLink Info: ETM fitted.
+
+Target info:
+------------
+Device: STM32F107VC
+* JLink Info: Device "STM32F107VC" selected (256 KB flash, 64 KB RAM).
+VTarget = 3.293V
+State of Pins: 
+TCK: 1, TDI: 0, TDO: 1, TMS: 0, TRES: 1, TRST: 1
+Hardware-Breakpoints: 6
+Software-Breakpoints: 8192
+Watchpoints:          4
+JTAG speed: 2000 kHz
+---
+Full Chip Erase Done.
+Programming Done.
+Verify OK.
+Application running ...
+Build target 'lwip2modbus'
+compiling client_tcpudp.c...
+..\myself\src\client_tcpudp.c(281): warning:  #1295-D: Deprecated declaration Getmeminf - give arg types
+..\myself\src\client_tcpudp.c:     extern char* Getmeminf();
+..\myself\src\client_tcpudp.c:                  ^
+..\myself\src\client_tcpudp.c(340): warning:  #177-D: variable "len" was declared but never referenced
+..\myself\src\client_tcpudp.c:                                                             uint16_t len;
+..\myself\src\client_tcpudp.c:                                                                      ^
+..\myself\src\client_tcpudp.c(359): warning:  #177-D: variable "len" was declared but never referenced
+..\myself\src\client_tcpudp.c:                                                             uint16_t len;
+..\myself\src\client_tcpudp.c:                                                                      ^
+..\myself\src\client_tcpudp.c(455): warning:  #175-D: subscript out of range
+..\myself\src\client_tcpudp.c:                                                    UID_STM32[16]=0x24;
+..\myself\src\client_tcpudp.c:                                                    ^
+..\myself\src\client_tcpudp.c(456): warning:  #175-D: subscript out of range
+..\myself\src\client_tcpudp.c:                                                    UID_STM32[17]=0x0d;  //efl
+..\myself\src\client_tcpudp.c:                                                             ^
+..\myself\src\client_tcpudp.c(457): warning:  #175-D: subscript out of range
+..\myself\src\client_tcpudp.c:                                                    UID_STM32[18]=0x0a;
+..\myself\src\client_tcpudp.c:                                                             ^
+..\myself\src\client_tcpudp.c(324): warning:  #177-D: variable "IDon" was declared but never referenced
+..\myself\src\client_tcpudp.c:                                          char IDon[7] ={0x67,0x74,0,0,1,0x0d,0x0a};
+..\myself\src\client_tcpudp.c:                                               ^
+..\myself\src\client_tcpudp.c(325): warning:  #177-D: variable "IDoff" was declared but never referenced
+..\myself\src\client_tcpudp.c:                                          char IDoff[7]={0x67,0x74,0,0,0,0x0d,0x0a};
+..\myself\src\client_tcpudp.c:                                               ^
+..\myself\src\client_tcpudp.c(326): warning:  #177-D: variable "IDs" was declared but never referenced
+..\myself\src\client_tcpudp.c:                                          char IDs[7]  ={0x67,0x74,0,0,2,0x0d,0x0a};
+..\myself\src\client_tcpudp.c:                                               ^
+..\myself\src\client_tcpudp.c(833): warning:  #940-D: missing return statement at end of non-void function "Tcp_recv"
+..\myself\src\client_tcpudp.c:   }
+..\myself\src\client_tcpudp.c:   ^
+..\myself\src\client_tcpudp.c: ..\myself\src\client_tcpudp.c: 10 warnings, 0 errors
+linking...
+Program Size: Code=57320 RO-data=756 RW-data=500 ZI-data=50764  
+FromELF: creating hex file...
+".\obj\lwip_gnu.axf" - 0 Error(s), 10 Warning(s).
+Load "C:\\Users\\mister-wang\\Desktop\\TCP2Modbus_v0.5.1\\Net2Modbus\\Lwip1.4.1+efls ByWang\\SDK\\obj\\lwip_gnu.AXF" 
+
+JLink info:
+-----------
+DLL: V4.86b, compiled Jun 27 2014 20:11:00
+Firmware: J-Link ARM V8 compiled Nov 25 2013 19:20:08
+Hardware: V8.00
+Feature(s) : RDI,FlashDL,FlashBP,JFlash,GDBFull 
+---
+* JLink Info: TotalIRLen = 9, IRPrint = 0x0011
+* JLink Info: Found Cortex-M3 r1p1, Little endian.
+* JLink Info: FPUnit: 6 code (BP) slots and 2 literal slots
+* JLink Info: TPIU fitted.
+* JLink Info: ETM fitted.
+
+Target info:
+------------
+Device: STM32F107VC
+* JLink Info: Device "STM32F107VC" selected (256 KB flash, 64 KB RAM).
+VTarget = 3.293V
+State of Pins: 
+TCK: 1, TDI: 0, TDO: 1, TMS: 0, TRES: 1, TRST: 1
+Hardware-Breakpoints: 6
+Software-Breakpoints: 8192
+Watchpoints:          4
+JTAG speed: 2000 kHz
+---
+Full Chip Erase Done.
+Programming Done.
+Verify OK.
+Application running ...
+Build target 'lwip2modbus'
+compiling client_tcpudp.c...
+..\myself\src\client_tcpudp.c(281): warning:  #1295-D: Deprecated declaration Getmeminf - give arg types
+..\myself\src\client_tcpudp.c:     extern char* Getmeminf();
+..\myself\src\client_tcpudp.c:                  ^
+..\myself\src\client_tcpudp.c(340): warning:  #177-D: variable "len" was declared but never referenced
+..\myself\src\client_tcpudp.c:                                                             uint16_t len;
+..\myself\src\client_tcpudp.c:                                                                      ^
+..\myself\src\client_tcpudp.c(359): warning:  #177-D: variable "len" was declared but never referenced
+..\myself\src\client_tcpudp.c:                                                             uint16_t len;
+..\myself\src\client_tcpudp.c:                                                                      ^
+..\myself\src\client_tcpudp.c(455): warning:  #175-D: subscript out of range
+..\myself\src\client_tcpudp.c:                                                    UID_STM32[16]=0x24;
+..\myself\src\client_tcpudp.c:                                                    ^
+..\myself\src\client_tcpudp.c(456): warning:  #175-D: subscript out of range
+..\myself\src\client_tcpudp.c:                                                    UID_STM32[17]=0x0d;  //efl
+..\myself\src\client_tcpudp.c:                                                             ^
+..\myself\src\client_tcpudp.c(457): warning:  #175-D: subscript out of range
+..\myself\src\client_tcpudp.c:                                                    UID_STM32[18]=0x0a;
+..\myself\src\client_tcpudp.c:                                                             ^
+..\myself\src\client_tcpudp.c(324): warning:  #177-D: variable "IDon" was declared but never referenced
+..\myself\src\client_tcpudp.c:                                          char IDon[7] ={0x67,0x74,0,0,1,0x0d,0x0a};
+..\myself\src\client_tcpudp.c:                                               ^
+..\myself\src\client_tcpudp.c(325): warning:  #177-D: variable "IDoff" was declared but never referenced
+..\myself\src\client_tcpudp.c:                                          char IDoff[7]={0x67,0x74,0,0,0,0x0d,0x0a};
+..\myself\src\client_tcpudp.c:                                               ^
+..\myself\src\client_tcpudp.c(326): warning:  #177-D: variable "IDs" was declared but never referenced
+..\myself\src\client_tcpudp.c:                                          char IDs[7]  ={0x67,0x74,0,0,2,0x0d,0x0a};
+..\myself\src\client_tcpudp.c:                                               ^
+..\myself\src\client_tcpudp.c(833): warning:  #940-D: missing return statement at end of non-void function "Tcp_recv"
+..\myself\src\client_tcpudp.c:   }
+..\myself\src\client_tcpudp.c:   ^
+..\myself\src\client_tcpudp.c: ..\myself\src\client_tcpudp.c: 10 warnings, 0 errors
+linking...
+Program Size: Code=57312 RO-data=756 RW-data=500 ZI-data=50764  
+FromELF: creating hex file...
+".\obj\lwip_gnu.axf" - 0 Error(s), 10 Warning(s).
+Load "C:\\Users\\mister-wang\\Desktop\\TCP2Modbus_v0.5.1\\Net2Modbus\\Lwip1.4.1+efls ByWang\\SDK\\obj\\lwip_gnu.AXF" 
+
+JLink info:
+-----------
+DLL: V4.86b, compiled Jun 27 2014 20:11:00
+Firmware: J-Link ARM V8 compiled Nov 25 2013 19:20:08
+Hardware: V8.00
+Feature(s) : RDI,FlashDL,FlashBP,JFlash,GDBFull 
+---
+* JLink Info: TotalIRLen = 9, IRPrint = 0x0011
+* JLink Info: Found Cortex-M3 r1p1, Little endian.
+* JLink Info: FPUnit: 6 code (BP) slots and 2 literal slots
+* JLink Info: TPIU fitted.
+* JLink Info: ETM fitted.
+
+Target info:
+------------
+Device: STM32F107VC
+* JLink Info: Device "STM32F107VC" selected (256 KB flash, 64 KB RAM).
+VTarget = 3.293V
+State of Pins: 
+TCK: 1, TDI: 0, TDO: 1, TMS: 0, TRES: 1, TRST: 1
+Hardware-Breakpoints: 6
+Software-Breakpoints: 8192
+Watchpoints:          4
+JTAG speed: 2000 kHz
+---
+Full Chip Erase Done.
+Programming Done.
+Verify OK.
+Application running ...
+Build target 'lwip2modbus'
+compiling client_tcpudp.c...
+..\myself\src\client_tcpudp.c(282): warning:  #1295-D: Deprecated declaration Getmeminf - give arg types
+..\myself\src\client_tcpudp.c:     extern char* Getmeminf();
+..\myself\src\client_tcpudp.c:                  ^
+..\myself\src\client_tcpudp.c(341): warning:  #177-D: variable "len" was declared but never referenced
+..\myself\src\client_tcpudp.c:                                                             uint16_t len;
+..\myself\src\client_tcpudp.c:                                                                      ^
+..\myself\src\client_tcpudp.c(360): warning:  #177-D: variable "len" was declared but never referenced
+..\myself\src\client_tcpudp.c:                                                             uint16_t len;
+..\myself\src\client_tcpudp.c:                                                                      ^
+..\myself\src\client_tcpudp.c(456): warning:  #175-D: subscript out of range
+..\myself\src\client_tcpudp.c:                                                    UID_STM32[16]=0x24;
+..\myself\src\client_tcpudp.c:                                                    ^
+..\myself\src\client_tcpudp.c(457): warning:  #175-D: subscript out of range
+..\myself\src\client_tcpudp.c:                                                    UID_STM32[17]=0x0d;  //efl
+..\myself\src\client_tcpudp.c:                                                             ^
+..\myself\src\client_tcpudp.c(458): warning:  #175-D: subscript out of range
+..\myself\src\client_tcpudp.c:                                                    UID_STM32[18]=0x0a;
+..\myself\src\client_tcpudp.c:                                                             ^
+..\myself\src\client_tcpudp.c(325): warning:  #177-D: variable "IDon" was declared but never referenced
+..\myself\src\client_tcpudp.c:                                          char IDon[7] ={0x67,0x74,0,0,1,0x0d,0x0a};
+..\myself\src\client_tcpudp.c:                                               ^
+..\myself\src\client_tcpudp.c(326): warning:  #177-D: variable "IDoff" was declared but never referenced
+..\myself\src\client_tcpudp.c:                                          char IDoff[7]={0x67,0x74,0,0,0,0x0d,0x0a};
+..\myself\src\client_tcpudp.c:                                               ^
+..\myself\src\client_tcpudp.c(327): warning:  #177-D: variable "IDs" was declared but never referenced
+..\myself\src\client_tcpudp.c:                                          char IDs[7]  ={0x67,0x74,0,0,2,0x0d,0x0a};
+..\myself\src\client_tcpudp.c:                                               ^
+..\myself\src\client_tcpudp.c(834): warning:  #940-D: missing return statement at end of non-void function "Tcp_recv"
+..\myself\src\client_tcpudp.c:   }
+..\myself\src\client_tcpudp.c:   ^
+..\myself\src\client_tcpudp.c: ..\myself\src\client_tcpudp.c: 10 warnings, 0 errors
+linking...
+Program Size: Code=57320 RO-data=756 RW-data=500 ZI-data=50764  
+FromELF: creating hex file...
+".\obj\lwip_gnu.axf" - 0 Error(s), 10 Warning(s).
+Load "C:\\Users\\mister-wang\\Desktop\\TCP2Modbus_v0.5.1\\Net2Modbus\\Lwip1.4.1+efls ByWang\\SDK\\obj\\lwip_gnu.AXF" 
+
+JLink info:
+-----------
+DLL: V4.86b, compiled Jun 27 2014 20:11:00
+Firmware: J-Link ARM V8 compiled Nov 25 2013 19:20:08
+Hardware: V8.00
+Feature(s) : RDI,FlashDL,FlashBP,JFlash,GDBFull 
+---
+* JLink Info: TotalIRLen = 9, IRPrint = 0x0011
+* JLink Info: Found Cortex-M3 r1p1, Little endian.
+* JLink Info: FPUnit: 6 code (BP) slots and 2 literal slots
+* JLink Info: TPIU fitted.
+* JLink Info: ETM fitted.
+
+Target info:
+------------
+Device: STM32F107VC
+* JLink Info: Device "STM32F107VC" selected (256 KB flash, 64 KB RAM).
+VTarget = 3.293V
+State of Pins: 
+TCK: 1, TDI: 0, TDO: 1, TMS: 0, TRES: 1, TRST: 1
+Hardware-Breakpoints: 6
+Software-Breakpoints: 8192
+Watchpoints:          4
+JTAG speed: 2000 kHz
+---
+Full Chip Erase Done.
+Programming Done.
+Verify OK.
+Application running ...
+Build target 'lwip2modbus'
+compiling client_tcpudp.c...
+..\myself\src\client_tcpudp.c(280): warning:  #1295-D: Deprecated declaration Getmeminf - give arg types
+..\myself\src\client_tcpudp.c:     extern char* Getmeminf();
+..\myself\src\client_tcpudp.c:                  ^
+..\myself\src\client_tcpudp.c(339): warning:  #177-D: variable "len" was declared but never referenced
+..\myself\src\client_tcpudp.c:                                                             uint16_t len;
+..\myself\src\client_tcpudp.c:                                                                      ^
+..\myself\src\client_tcpudp.c(358): warning:  #177-D: variable "len" was declared but never referenced
+..\myself\src\client_tcpudp.c:                                                             uint16_t len;
+..\myself\src\client_tcpudp.c:                                                                      ^
+..\myself\src\client_tcpudp.c(454): warning:  #175-D: subscript out of range
+..\myself\src\client_tcpudp.c:                                                    UID_STM32[16]=0x24;
+..\myself\src\client_tcpudp.c:                                                    ^
+..\myself\src\client_tcpudp.c(455): warning:  #175-D: subscript out of range
+..\myself\src\client_tcpudp.c:                                                    UID_STM32[17]=0x0d;  //efl
+..\myself\src\client_tcpudp.c:                                                             ^
+..\myself\src\client_tcpudp.c(456): warning:  #175-D: subscript out of range
+..\myself\src\client_tcpudp.c:                                                    UID_STM32[18]=0x0a;
+..\myself\src\client_tcpudp.c:                                                             ^
+..\myself\src\client_tcpudp.c(323): warning:  #177-D: variable "IDon" was declared but never referenced
+..\myself\src\client_tcpudp.c:                                          char IDon[7] ={0x67,0x74,0,0,1,0x0d,0x0a};
+..\myself\src\client_tcpudp.c:                                               ^
+..\myself\src\client_tcpudp.c(324): warning:  #177-D: variable "IDoff" was declared but never referenced
+..\myself\src\client_tcpudp.c:                                          char IDoff[7]={0x67,0x74,0,0,0,0x0d,0x0a};
+..\myself\src\client_tcpudp.c:                                               ^
+..\myself\src\client_tcpudp.c(325): warning:  #177-D: variable "IDs" was declared but never referenced
+..\myself\src\client_tcpudp.c:                                          char IDs[7]  ={0x67,0x74,0,0,2,0x0d,0x0a};
+..\myself\src\client_tcpudp.c:                                               ^
+..\myself\src\client_tcpudp.c(832): warning:  #940-D: missing return statement at end of non-void function "Tcp_recv"
+..\myself\src\client_tcpudp.c:   }
+..\myself\src\client_tcpudp.c:   ^
+..\myself\src\client_tcpudp.c: ..\myself\src\client_tcpudp.c: 10 warnings, 0 errors
+linking...
+Program Size: Code=57320 RO-data=756 RW-data=500 ZI-data=50764  
+FromELF: creating hex file...
+".\obj\lwip_gnu.axf" - 0 Error(s), 10 Warning(s).
+Load "C:\\Users\\mister-wang\\Desktop\\TCP2Modbus_v0.5.1\\Net2Modbus\\Lwip1.4.1+efls ByWang\\SDK\\obj\\lwip_gnu.AXF" 
+
+JLink info:
+-----------
+DLL: V4.86b, compiled Jun 27 2014 20:11:00
+Firmware: J-Link ARM V8 compiled Nov 25 2013 19:20:08
+Hardware: V8.00
+Feature(s) : RDI,FlashDL,FlashBP,JFlash,GDBFull 
+---
+* JLink Info: TotalIRLen = 9, IRPrint = 0x0011
+* JLink Info: Found Cortex-M3 r1p1, Little endian.
+* JLink Info: FPUnit: 6 code (BP) slots and 2 literal slots
+* JLink Info: TPIU fitted.
+* JLink Info: ETM fitted.
+
+Target info:
+------------
+Device: STM32F107VC
+* JLink Info: Device "STM32F107VC" selected (256 KB flash, 64 KB RAM).
+VTarget = 3.293V
+State of Pins: 
+TCK: 1, TDI: 0, TDO: 1, TMS: 0, TRES: 1, TRST: 1
+Hardware-Breakpoints: 6
+Software-Breakpoints: 8192
+Watchpoints:          4
+JTAG speed: 2000 kHz
+---
+Full Chip Erase Done.
+Programming Done.
+Verify OK.
+Application running ...
+Build target 'lwip2modbus'
+compiling client_tcpudp.c...
+..\myself\src\client_tcpudp.c(280): warning:  #1295-D: Deprecated declaration Getmeminf - give arg types
+..\myself\src\client_tcpudp.c:     extern char* Getmeminf();
+..\myself\src\client_tcpudp.c:                  ^
+..\myself\src\client_tcpudp.c(339): warning:  #177-D: variable "len" was declared but never referenced
+..\myself\src\client_tcpudp.c:                                                             uint16_t len;
+..\myself\src\client_tcpudp.c:                                                                      ^
+..\myself\src\client_tcpudp.c(358): warning:  #177-D: variable "len" was declared but never referenced
+..\myself\src\client_tcpudp.c:                                                             uint16_t len;
+..\myself\src\client_tcpudp.c:                                                                      ^
+..\myself\src\client_tcpudp.c(454): warning:  #175-D: subscript out of range
+..\myself\src\client_tcpudp.c:                                                    UID_STM32[16]=0x24;
+..\myself\src\client_tcpudp.c:                                                    ^
+..\myself\src\client_tcpudp.c(455): warning:  #175-D: subscript out of range
+..\myself\src\client_tcpudp.c:                                                    UID_STM32[17]=0x0d;  //efl
+..\myself\src\client_tcpudp.c:                                                             ^
+..\myself\src\client_tcpudp.c(456): warning:  #175-D: subscript out of range
+..\myself\src\client_tcpudp.c:                                                    UID_STM32[18]=0x0a;
+..\myself\src\client_tcpudp.c:                                                             ^
+..\myself\src\client_tcpudp.c(323): warning:  #177-D: variable "IDon" was declared but never referenced
+..\myself\src\client_tcpudp.c:                                          char IDon[7] ={0x67,0x74,0,0,1,0x0d,0x0a};
+..\myself\src\client_tcpudp.c:                                               ^
+..\myself\src\client_tcpudp.c(324): warning:  #177-D: variable "IDoff" was declared but never referenced
+..\myself\src\client_tcpudp.c:                                          char IDoff[7]={0x67,0x74,0,0,0,0x0d,0x0a};
+..\myself\src\client_tcpudp.c:                                               ^
+..\myself\src\client_tcpudp.c(325): warning:  #177-D: variable "IDs" was declared but never referenced
+..\myself\src\client_tcpudp.c:                                          char IDs[7]  ={0x67,0x74,0,0,2,0x0d,0x0a};
+..\myself\src\client_tcpudp.c:                                               ^
+..\myself\src\client_tcpudp.c(832): warning:  #940-D: missing return statement at end of non-void function "Tcp_recv"
+..\myself\src\client_tcpudp.c:   }
+..\myself\src\client_tcpudp.c:   ^
+..\myself\src\client_tcpudp.c: ..\myself\src\client_tcpudp.c: 10 warnings, 0 errors
+linking...
+Program Size: Code=57320 RO-data=756 RW-data=500 ZI-data=50764  
+FromELF: creating hex file...
+".\obj\lwip_gnu.axf" - 0 Error(s), 10 Warning(s).
+Load "C:\\Users\\mister-wang\\Desktop\\TCP2Modbus_v0.5.1\\Net2Modbus\\Lwip1.4.1+efls ByWang\\SDK\\obj\\lwip_gnu.AXF" 
+
+JLink info:
+-----------
+DLL: V4.86b, compiled Jun 27 2014 20:11:00
+Firmware: J-Link ARM V8 compiled Nov 25 2013 19:20:08
+Hardware: V8.00
+Feature(s) : RDI,FlashDL,FlashBP,JFlash,GDBFull 
+---
+* JLink Info: TotalIRLen = 9, IRPrint = 0x0011
+* JLink Info: Found Cortex-M3 r1p1, Little endian.
+* JLink Info: FPUnit: 6 code (BP) slots and 2 literal slots
+* JLink Info: TPIU fitted.
+* JLink Info: ETM fitted.
+
+Target info:
+------------
+Device: STM32F107VC
+* JLink Info: Device "STM32F107VC" selected (256 KB flash, 64 KB RAM).
+VTarget = 3.293V
+State of Pins: 
+TCK: 1, TDI: 0, TDO: 1, TMS: 0, TRES: 1, TRST: 1
+Hardware-Breakpoints: 6
+Software-Breakpoints: 8192
+Watchpoints:          4
+JTAG speed: 2000 kHz
+---
+Full Chip Erase Done.
+Programming Done.
+Verify OK.
+Application running ...
+Load "C:\\Users\\mister-wang\\Desktop\\TCP2Modbus_v0.5.1\\Net2Modbus\\Lwip1.4.1+efls ByWang\\SDK\\obj\\lwip_gnu.AXF" 
+
+JLink info:
+-----------
+DLL: V4.86b, compiled Jun 27 2014 20:11:00
+Firmware: J-Link ARM V8 compiled Nov 25 2013 19:20:08
+Hardware: V8.00
+Feature(s) : RDI,FlashDL,FlashBP,JFlash,GDBFull 
+---
+* JLink Info: TotalIRLen = 9, IRPrint = 0x0011
+* JLink Info: Found Cortex-M3 r1p1, Little endian.
+* JLink Info: FPUnit: 6 code (BP) slots and 2 literal slots
+* JLink Info: TPIU fitted.
+* JLink Info: ETM fitted.
+
+Target info:
+------------
+Device: STM32F107VC
+* JLink Info: Device "STM32F107VC" selected (256 KB flash, 64 KB RAM).
+VTarget = 3.293V
+State of Pins: 
+TCK: 1, TDI: 0, TDO: 1, TMS: 0, TRES: 1, TRST: 1
+Hardware-Breakpoints: 6
+Software-Breakpoints: 8192
+Watchpoints:          4
+JTAG speed: 2000 kHz
+---
+Full Chip Erase Done.
+Programming Done.
+Verify OK.
+Application running ...
+Build target 'lwip2modbus'
+compiling modbus_main.c...
+..\modbus\User\modbus_main.c(71): warning:  #513-D: a value of type "uint8_t *" cannot be assigned to an entity of type "char *"
+..\modbus\User\modbus_main.c:                                                                                    sptr =   &TCP2RS485CMDLIST[0]; //取BUFF地址
+..\modbus\User\modbus_main.c:                                                                                         ^
+..\modbus\User\modbus_main.c(249): warning:  #223-D: function "eMBMasterInit" declared implicitly
+..\modbus\User\modbus_main.c:       eStatus = eMBMasterInit( MB_RTU, 2, 9600,MB_PAR_NONE );
+..\modbus\User\modbus_main.c:                 ^
+..\modbus\User\modbus_main.c(249): warning:  #188-D: enumerated type mixed with another type
+..\modbus\User\modbus_main.c:       eStatus = eMBMasterInit( MB_RTU, 2, 9600,MB_PAR_NONE );
+..\modbus\User\modbus_main.c:               ^
+..\modbus\User\modbus_main.c(254): warning:  #223-D: function "eMBMasterEnable" declared implicitly
+..\modbus\User\modbus_main.c:       eStatus = eMBMasterEnable();
+..\modbus\User\modbus_main.c:                 ^
+..\modbus\User\modbus_main.c(254): warning:  #188-D: enumerated type mixed with another type
+..\modbus\User\modbus_main.c:       eStatus = eMBMasterEnable();
+..\modbus\User\modbus_main.c:               ^
+..\modbus\User\modbus_main.c(280): warning:  #223-D: function "eMBMasterPoll" declared implicitly
+..\modbus\User\modbus_main.c:                           (void)eMBMasterPoll();
+..\modbus\User\modbus_main.c:                                 ^
+..\modbus\User\modbus_main.c(234): warning:  #550-D: variable "eStatus" was set but never used
+..\modbus\User\modbus_main.c:       eMBErrorCode    eStatus;
+..\modbus\User\modbus_main.c:                       ^
+..\modbus\User\modbus_main.c(300): warning:  #223-D: function "vMBMasterGetPDUSndBuf" declared implicitly
+..\modbus\User\modbus_main.c:                     vMBMasterGetPDUSndBuf( &p );   //The 1st  we get the pdu buffer point
+..\modbus\User\modbus_main.c:                     ^
+..\modbus\User\modbus_main.c(309): warning:  #223-D: function "eMBMasterRTUSend" declared implicitly
+..\modbus\User\modbus_main.c:                       eMBMasterRTUSend( Slave_addr, p, len );     //      start up snet status machin and excution sent data on RTU 
+..\modbus\User\modbus_main.c:                       ^
+..\modbus\User\modbus_main.c(16): warning:  #177-D: variable "t32" was declared but never referenced
+..\modbus\User\modbus_main.c:             static  uint32_t t32=0;
+..\modbus\User\modbus_main.c:                              ^
+..\modbus\User\modbus_main.c: ..\modbus\User\modbus_main.c: 10 warnings, 0 errors
+linking...
+Program Size: Code=57320 RO-data=756 RW-data=500 ZI-data=50764  
+FromELF: creating hex file...
+".\obj\lwip_gnu.axf" - 0 Error(s), 10 Warning(s).
+Build target 'lwip2modbus'
+compiling modbus_main.c...
+..\modbus\User\modbus_main.c(71): warning:  #513-D: a value of type "uint8_t *" cannot be assigned to an entity of type "char *"
+..\modbus\User\modbus_main.c:                                                                                    sptr =   &TCP2RS485CMDLIST[0]; //取BUFF地址
+..\modbus\User\modbus_main.c:                                                                                         ^
+..\modbus\User\modbus_main.c(249): warning:  #223-D: function "eMBMasterInit" declared implicitly
+..\modbus\User\modbus_main.c:       eStatus = eMBMasterInit( MB_RTU, 2, 9600,MB_PAR_NONE );
+..\modbus\User\modbus_main.c:                 ^
+..\modbus\User\modbus_main.c(249): warning:  #188-D: enumerated type mixed with another type
+..\modbus\User\modbus_main.c:       eStatus = eMBMasterInit( MB_RTU, 2, 9600,MB_PAR_NONE );
+..\modbus\User\modbus_main.c:               ^
+..\modbus\User\modbus_main.c(254): warning:  #223-D: function "eMBMasterEnable" declared implicitly
+..\modbus\User\modbus_main.c:       eStatus = eMBMasterEnable();
+..\modbus\User\modbus_main.c:                 ^
+..\modbus\User\modbus_main.c(254): warning:  #188-D: enumerated type mixed with another type
+..\modbus\User\modbus_main.c:       eStatus = eMBMasterEnable();
+..\modbus\User\modbus_main.c:               ^
+..\modbus\User\modbus_main.c(280): warning:  #223-D: function "eMBMasterPoll" declared implicitly
+..\modbus\User\modbus_main.c:                           (void)eMBMasterPoll();
+..\modbus\User\modbus_main.c:                                 ^
+..\modbus\User\modbus_main.c(234): warning:  #550-D: variable "eStatus" was set but never used
+..\modbus\User\modbus_main.c:       eMBErrorCode    eStatus;
+..\modbus\User\modbus_main.c:                       ^
+..\modbus\User\modbus_main.c(300): warning:  #223-D: function "vMBMasterGetPDUSndBuf" declared implicitly
+..\modbus\User\modbus_main.c:                     vMBMasterGetPDUSndBuf( &p );   //The 1st  we get the pdu buffer point
+..\modbus\User\modbus_main.c:                     ^
+..\modbus\User\modbus_main.c(309): warning:  #223-D: function "eMBMasterRTUSend" declared implicitly
+..\modbus\User\modbus_main.c:                       eMBMasterRTUSend( Slave_addr, p, len );     //      start up snet status machin and excution sent data on RTU 
+..\modbus\User\modbus_main.c:                       ^
+..\modbus\User\modbus_main.c(16): warning:  #177-D: variable "t32" was declared but never referenced
+..\modbus\User\modbus_main.c:             static  uint32_t t32=0;
+..\modbus\User\modbus_main.c:                              ^
+..\modbus\User\modbus_main.c: ..\modbus\User\modbus_main.c: 10 warnings, 0 errors
+linking...
+Program Size: Code=57320 RO-data=756 RW-data=500 ZI-data=51140  
+FromELF: creating hex file...
+".\obj\lwip_gnu.axf" - 0 Error(s), 10 Warning(s).
+Build target 'lwip2modbus'
+linking...
+Program Size: Code=57320 RO-data=756 RW-data=500 ZI-data=51140  
+FromELF: creating hex file...
+".\obj\lwip_gnu.axf" - 0 Error(s), 0 Warning(s).
+Build target 'lwip2modbus'
+linking...
+Program Size: Code=57320 RO-data=756 RW-data=500 ZI-data=51140  
+FromELF: creating hex file...
+".\obj\lwip_gnu.axf" - 0 Error(s), 0 Warning(s).
+Load "C:\\Users\\mister-wang\\Desktop\\TCP2Modbus_v0.5.1\\Net2Modbus\\Lwip1.4.1+efls ByWang\\SDK\\obj\\lwip_gnu.AXF" 
+
+JLink info:
+-----------
+DLL: V4.86b, compiled Jun 27 2014 20:11:00
+Firmware: J-Link ARM V8 compiled Nov 25 2013 19:20:08
+Hardware: V8.00
+Feature(s) : RDI,FlashDL,FlashBP,JFlash,GDBFull 
+---
+* JLink Info: TotalIRLen = 9, IRPrint = 0x0011
+* JLink Info: Found Cortex-M3 r1p1, Little endian.
+* JLink Info: FPUnit: 6 code (BP) slots and 2 literal slots
+* JLink Info: TPIU fitted.
+* JLink Info: ETM fitted.
+
+Target info:
+------------
+Device: STM32F107VC
+* JLink Info: Device "STM32F107VC" selected (256 KB flash, 64 KB RAM).
+VTarget = 3.293V
+State of Pins: 
+TCK: 1, TDI: 0, TDO: 1, TMS: 0, TRES: 1, TRST: 1
+Hardware-Breakpoints: 6
+Software-Breakpoints: 8192
+Watchpoints:          4
+JTAG speed: 2000 kHz
+---
+Full Chip Erase Done.
+Programming Done.
+Verify OK.
+Application running ...
